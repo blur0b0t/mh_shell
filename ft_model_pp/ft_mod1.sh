@@ -42,11 +42,11 @@ echo $checkpoint_path
 
 export output_dir="/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5"
 
-        # --resume_from_checkpoint $checkpoint_path \
 
 
 python finetune_seq2seq.py \
         --model_name_or_path $model_path \
+        --resume_from_checkpoint $checkpoint_path \
         --bf16 True \
         --train_file $train_file \
         --per_device_train_batch_size 2 \
