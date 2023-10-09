@@ -41,7 +41,7 @@ export model_path="google/flan-t5-xl"
 # export model_path="/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v1"
 
 # export checkpoint_path="/home/u131168/mh_shell/ft_models/flan-t5-xl_peft_finetuned_model/checkpoint-36000"
-export checkpoint_dir="/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v2/"
+export checkpoint_dir="/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v3/"
 export checkpoint_name=$(ls $checkpoint_dir | grep checkpoint | tail -1)
 export checkpoint_path="$checkpoint_dir$checkpoint_name"
 echo $checkpoint_path
