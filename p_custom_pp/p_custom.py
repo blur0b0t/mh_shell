@@ -69,10 +69,11 @@ model.resize_token_embeddings(len(tokenizer))
 
 # ------predict--------------
 bs=1
+end_index=len(test_data)
 for i in range(start_index,end_index,bs):
     res=[]
 
-    # if test_data.loc[i,['output']].notnull():
+    # if test_data.loc[i,['output']].notnull() and i>10:
     if False:
         res+=[test_data.loc[i,['output']]]
 
