@@ -12,14 +12,14 @@ mh_dir='mh_shell'
 # start_index=[0,9500,19000]
 # end_index=[9500,19000,29000]
 # file_name=['0_10k.csv','10_20k.csv','20_30k.csv']
-pred_file_name="full_pred1.csv"
+pred_file_name="full_pred2.csv"
 pred_file_path=f"/home/u131168/{mh_dir}/data/custom_pred/{pred_file_name}"
 # start_index=subprocess.get_output("tail {} -n 1 | awk -F' ' '{print $1}'".format(file_name))
 start_index=subprocess.check_output("tail "+pred_file_path+" -n 1 | awk -F' ' '{print $1}'",shell=True)
 print(start_index)
 
-start_index=int(start_index)+1    #-------------------------
-# start_index=0  #---------comment this line--------------------
+# start_index=int(start_index)+1    #-------------------------
+start_index=0  #---------comment this line--------------------
 
 end_index=29000
 
@@ -60,8 +60,10 @@ model = AutoPeftModelForSeq2SeqLM.from_pretrained(model_path, )
 tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-xl")
 
 # stokens_v1=["`","~","!","@","#","$","%","^","&","*","(",")","-","_","+","=","{","}","[","]","|","\\",":",";","\"","'","<",">","?","/","\n","\t"," "]
-stokens_v2=["{","}","<","<<"]
-stokens=stokens_v2
+# stokens_v2=["{","}","<","<<"]
+stokens_v3=["{","}","<","`","\\"]
+
+stokens=stokens_v3
 for st in stokens:
     tokenizer.add_tokens(AddedToken(st, normalized=False),special_tokens=False)
 model.resize_token_embeddings(len(tokenizer))
@@ -73,8 +75,8 @@ end_index=len(test_data)
 for i in range(start_index,end_index,bs):
     res=[]
 
-    # if test_data.loc[i,['output']].notnull() and i>10:
-    if False:
+    if test_data.loc[i,['output']].notnull().any() and i>15:
+    # if False:
         res+=[test_data.loc[i,['output']]]
 
     else:

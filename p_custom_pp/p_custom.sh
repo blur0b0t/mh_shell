@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# sbatch -x idc-beta-batch-pvc-node-[03,20,21] --priority 0 --job-name pcs1 p_custom.sh
+# sbatch -x idc-beta-batch-pvc-node-[03,20,21] --priority 0 --job-name pcs1 --mem=0 --exclusive p_custom.sh
 export batch_script="p_custom.sh"
 # -----------set new job dep--------------
 echo "got current job name=$SLURM_JOB_NAME"
@@ -9,7 +9,7 @@ export cji=$(echo -n $SLURM_JOB_NAME | tail -c 1)
 export nji=$(( cji + 1 ))
 export njname="pcs$nji"
 echo "new job name=$njname"
-export njid=$(sbatch -x idc-beta-batch-pvc-node-[03,20,21] --priority 0 --job-name $njname --begin=now+60 --dependency=afterany:$SLURM_JOB_ID $batch_script | sed -n 's/.*job //p')
+export njid=$(sbatch -x idc-beta-batch-pvc-node-[03,20,21] --priority 0 --job-name $njname --begin=now+60 --dependency=afterany:$SLURM_JOB_ID --mem=0 --exclusive $batch_script | sed -n 's/.*job //p')
 echo "new job created with id: $njid"
 # -------------------end------------------
 
@@ -17,6 +17,7 @@ echo "new job created with id: $njid"
 
 
 echo "----------checking if gpu available on current job-----------------"
+conda init bash
 # oneapi env and checking gpu
 echo "-------------------------------------------"
 groups  # Key group is render, PVC access is unavailable if you do not have render group present.
@@ -36,8 +37,6 @@ echo "-------------------------------------------"
 
 
 echo "staring prediction"
-
-source /opt/intel/oneapi/setvars.sh
 
 # conda acti
 pip install torch

@@ -2,8 +2,8 @@
 #!/bin/sh
 
 
-# sbatch -x idc-beta-batch-pvc-node-[03,09,20,21] --priority 0 --job-name fts1 ft_mod1.sh
-# sbatch -x idc-beta-batch-pvc-node-[03,09,20,21] --priority 0 --job-name fts3 --dependency=afterany:28437 ft_mod1.sh
+# sbatch -x idc-beta-batch-pvc-node-[03,09,20,21] --priority=0 --job-name=fts1 --mem=0 --exclusive ft_mod1.sh
+# sbatch -x idc-beta-batch-pvc-node-[03,09,20,21] --priority 0 --job-name fts3 --dependency=afterany:28437 --mem=0 --exclusive ft_mod1.sh
 
 
 
@@ -15,7 +15,7 @@ export nji=$(( cji + 1 ))
 # export nji=$($SLURM_JOB_NAME | tail -c 1| awk '{print $1 + 1}')
 export njname="fts$nji"
 echo "new job name=$njname"
-export njid=$(sbatch -x idc-beta-batch-pvc-node-[03,09,14,20,21] --priority 0 --job-name $njname --begin=now+60 --dependency=afterany:$SLURM_JOB_ID $batch_script | sed -n 's/.*job //p')
+export njid=$(sbatch -x idc-beta-batch-pvc-node-[03,09,14,20,21] --priority 0 --job-name $njname --begin=now+60 --dependency=afterany:$SLURM_JOB_ID --mem=0 --exclusive $batch_script | sed -n 's/.*job //p')
 echo "new job created with id: $njid"
 # -------------------end------------------
 
