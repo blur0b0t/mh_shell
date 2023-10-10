@@ -77,7 +77,7 @@ for i in range(start_index,end_index,bs):
 
     if test_data.loc[i,['output']].notnull().any() and i>15:
     # if False:
-        res+=[test_data.loc[i,['output']]]
+        res+=[test_data.iloc[i,2]]
 
     else:
         print(f"predicting {i} to {i+bs-1} prompt")
