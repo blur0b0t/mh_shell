@@ -1,0 +1,214 @@
+got current job name=pcs2
+new job name=pcs3
+new job created with id: 28886
+----------checking if gpu available on current job-----------------
+no change     /opt/intel/oneapi/intelpython/latest/condabin/conda
+no change     /opt/intel/oneapi/intelpython/latest/bin/conda
+no change     /opt/intel/oneapi/intelpython/latest/bin/conda-env
+no change     /opt/intel/oneapi/intelpython/latest/bin/activate
+no change     /opt/intel/oneapi/intelpython/latest/bin/deactivate
+no change     /opt/intel/oneapi/intelpython/latest/etc/profile.d/conda.sh
+no change     /opt/intel/oneapi/intelpython/latest/etc/fish/conf.d/conda.fish
+no change     /opt/intel/oneapi/intelpython/latest/shell/condabin/Conda.psm1
+no change     /opt/intel/oneapi/intelpython/latest/shell/condabin/conda-hook.ps1
+no change     /opt/intel/oneapi/intelpython/latest/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /opt/intel/oneapi/intelpython/latest/etc/profile.d/conda.csh
+no change     /opt/intel/oneapi/intelpython/latest/etc/profile.d/conda.ksh
+no change     /home/u131168/.bashrc
+No action taken.
+-------------------------------------------
+users render freetier premium
+ 
+:: initializing oneAPI environment ...
+   slurm_script: BASH_VERSION = 5.1.16(1)-release
+   args: Using "$@" for setvars.sh arguments: --force
+:: advisor -- latest
+:: ccl -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: embree -- latest
+:: inspector -- latest
+:: intelpython -- latest
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+:: ipp -- latest
+:: ippcp -- latest
+:: ispc -- latest
+:: itac -- latest
+:: mkl -- latest
+:: modelzoo -- latest
+:: modin -- latest
+:: mpi -- latest
+:: neural-compressor -- latest
+:: oidn -- latest
+:: openpgl -- latest
+:: openvkl -- latest
+:: ospray -- latest
+:: ospray_studio -- latest
+:: pytorch -- latest
+:: rkcommon -- latest
+:: rkutil -- latest
+:: tbb -- latest
+:: tensorflow -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+Warning: ONEAPI_DEVICE_SELECTOR environment variable is set to opencl:cpu;opencl:fpga;level_zero:0.
+To see the correct device id, please unset ONEAPI_DEVICE_SELECTOR.
+
+[opencl:cpu:0] Intel(R) OpenCL, Intel(R) Xeon(R) Platinum 8480+ 3.0 [2023.16.7.0.21_160000]
+[opencl:acc:1] Intel(R) FPGA Emulation Platform for OpenCL(TM), Intel(R) FPGA Emulation Device 1.2 [2023.16.7.0.21_160000]
+[opencl:cpu:2] Intel(R) OpenCL, Intel(R) Xeon(R) Platinum 8480+ 3.0 [2023.16.7.0.21_160000]
+[ext_oneapi_level_zero:gpu:0] Intel(R) Level-Zero, Intel(R) Data Center GPU Max 1100 1.3 [1.3.26516]
+Warning: ONEAPI_DEVICE_SELECTOR environment variable is set to opencl:cpu;opencl:fpga;level_zero:0.
+To see the correct device id, please unset ONEAPI_DEVICE_SELECTOR.
+
+num_gpu=1\n
+Warning: ONEAPI_DEVICE_SELECTOR environment variable is set to opencl:cpu;opencl:fpga;level_zero:0.
+To see the correct device id, please unset ONEAPI_DEVICE_SELECTOR.
+
+num_cpu=2\n
+/var/spool/slurmd/job28883/slurm_script: line 30: [: missing `]'
+-------------------------------------------
+staring prediction
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: torch in /home/u131168/.local/lib/python3.9/site-packages (2.1.0)
+Requirement already satisfied: filelock in /home/u131168/.local/lib/python3.9/site-packages (from torch) (3.12.4)
+Requirement already satisfied: typing-extensions in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from torch) (4.6.3)
+Requirement already satisfied: sympy in /home/u131168/.local/lib/python3.9/site-packages (from torch) (1.12)
+Requirement already satisfied: networkx in /home/u131168/.local/lib/python3.9/site-packages (from torch) (3.1)
+Requirement already satisfied: jinja2 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (3.1.2)
+Requirement already satisfied: fsspec in /home/u131168/.local/lib/python3.9/site-packages (from torch) (2023.6.0)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (12.1.105)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (12.1.105)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (12.1.105)
+Requirement already satisfied: nvidia-cudnn-cu12==8.9.2.26 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (8.9.2.26)
+Requirement already satisfied: nvidia-cublas-cu12==12.1.3.1 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (12.1.3.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.0.2.54 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (11.0.2.54)
+Requirement already satisfied: nvidia-curand-cu12==10.3.2.106 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (10.3.2.106)
+Requirement already satisfied: nvidia-cusolver-cu12==11.4.5.107 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (11.4.5.107)
+Requirement already satisfied: nvidia-cusparse-cu12==12.1.0.106 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (12.1.0.106)
+Requirement already satisfied: nvidia-nccl-cu12==2.18.1 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (2.18.1)
+Requirement already satisfied: nvidia-nvtx-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (12.1.105)
+Requirement already satisfied: triton==2.1.0 in /home/u131168/.local/lib/python3.9/site-packages (from torch) (2.1.0)
+Requirement already satisfied: nvidia-nvjitlink-cu12 in /home/u131168/.local/lib/python3.9/site-packages (from nvidia-cusolver-cu12==11.4.5.107->torch) (12.2.140)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/u131168/.local/lib/python3.9/site-packages (from jinja2->torch) (2.1.3)
+Requirement already satisfied: mpmath>=0.19 in /home/u131168/.local/lib/python3.9/site-packages (from sympy->torch) (1.3.0)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: transformers in /home/u131168/.local/lib/python3.9/site-packages (4.35.0.dev0)
+Requirement already satisfied: filelock in /home/u131168/.local/lib/python3.9/site-packages (from transformers) (3.12.4)
+Requirement already satisfied: huggingface-hub<1.0,>=0.16.4 in /home/u131168/.local/lib/python3.9/site-packages (from transformers) (0.17.3)
+Requirement already satisfied: numpy>=1.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers) (23.1)
+Requirement already satisfied: pyyaml>=5.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers) (6.0)
+Requirement already satisfied: regex!=2019.12.17 in /home/u131168/.local/lib/python3.9/site-packages (from transformers) (2023.10.3)
+Requirement already satisfied: requests in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers) (2.31.0)
+Requirement already satisfied: tokenizers<0.15,>=0.14 in /home/u131168/.local/lib/python3.9/site-packages (from transformers) (0.14.1)
+Requirement already satisfied: safetensors>=0.3.1 in /home/u131168/.local/lib/python3.9/site-packages (from transformers) (0.4.0)
+Requirement already satisfied: tqdm>=4.27 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers) (4.65.0)
+Requirement already satisfied: fsspec in /home/u131168/.local/lib/python3.9/site-packages (from huggingface-hub<1.0,>=0.16.4->transformers) (2023.6.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface-hub<1.0,>=0.16.4->transformers) (4.6.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers) (2.0.3)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers) (2023.7.22)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: peft in /home/u131168/.local/lib/python3.9/site-packages (0.5.0)
+Requirement already satisfied: numpy>=1.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from peft) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from peft) (23.1)
+Requirement already satisfied: psutil in /home/u131168/.local/lib/python3.9/site-packages (from peft) (5.9.5)
+Requirement already satisfied: pyyaml in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from peft) (6.0)
+Requirement already satisfied: torch>=1.13.0 in /home/u131168/.local/lib/python3.9/site-packages (from peft) (2.1.0)
+Requirement already satisfied: transformers in /home/u131168/.local/lib/python3.9/site-packages (from peft) (4.35.0.dev0)
+Requirement already satisfied: tqdm in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from peft) (4.65.0)
+Requirement already satisfied: accelerate in /home/u131168/.local/lib/python3.9/site-packages (from peft) (0.23.0)
+Requirement already satisfied: safetensors in /home/u131168/.local/lib/python3.9/site-packages (from peft) (0.4.0)
+Requirement already satisfied: filelock in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (3.12.4)
+Requirement already satisfied: typing-extensions in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from torch>=1.13.0->peft) (4.6.3)
+Requirement already satisfied: sympy in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (1.12)
+Requirement already satisfied: networkx in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (3.1)
+Requirement already satisfied: jinja2 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (3.1.2)
+Requirement already satisfied: fsspec in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (2023.6.0)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (12.1.105)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (12.1.105)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (12.1.105)
+Requirement already satisfied: nvidia-cudnn-cu12==8.9.2.26 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (8.9.2.26)
+Requirement already satisfied: nvidia-cublas-cu12==12.1.3.1 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (12.1.3.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.0.2.54 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (11.0.2.54)
+Requirement already satisfied: nvidia-curand-cu12==10.3.2.106 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (10.3.2.106)
+Requirement already satisfied: nvidia-cusolver-cu12==11.4.5.107 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (11.4.5.107)
+Requirement already satisfied: nvidia-cusparse-cu12==12.1.0.106 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (12.1.0.106)
+Requirement already satisfied: nvidia-nccl-cu12==2.18.1 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (2.18.1)
+Requirement already satisfied: nvidia-nvtx-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (12.1.105)
+Requirement already satisfied: triton==2.1.0 in /home/u131168/.local/lib/python3.9/site-packages (from torch>=1.13.0->peft) (2.1.0)
+Requirement already satisfied: nvidia-nvjitlink-cu12 in /home/u131168/.local/lib/python3.9/site-packages (from nvidia-cusolver-cu12==11.4.5.107->torch>=1.13.0->peft) (12.2.140)
+Requirement already satisfied: huggingface-hub in /home/u131168/.local/lib/python3.9/site-packages (from accelerate->peft) (0.17.3)
+Requirement already satisfied: regex!=2019.12.17 in /home/u131168/.local/lib/python3.9/site-packages (from transformers->peft) (2023.10.3)
+Requirement already satisfied: requests in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers->peft) (2.31.0)
+Requirement already satisfied: tokenizers<0.15,>=0.14 in /home/u131168/.local/lib/python3.9/site-packages (from transformers->peft) (0.14.1)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/u131168/.local/lib/python3.9/site-packages (from jinja2->torch>=1.13.0->peft) (2.1.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers->peft) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers->peft) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers->peft) (2.0.3)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers->peft) (2023.7.22)
+Requirement already satisfied: mpmath>=0.19 in /home/u131168/.local/lib/python3.9/site-packages (from sympy->torch>=1.13.0->peft) (1.3.0)

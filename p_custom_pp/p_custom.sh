@@ -1,8 +1,9 @@
 #!/bin/bash
 
-
+# sbatch --priority 0 --job-name pcs1 --mem=0 --exclusive p_custom.sh
 # sbatch -x idc-beta-batch-pvc-node-[03,20,21] --priority 0 --job-name pcs1 --mem=0 --exclusive p_custom.sh
 export batch_script="p_custom.sh"
+conda init bash
 # -----------set new job dep--------------
 echo "got current job name=$SLURM_JOB_NAME"
 export cji=$(echo -n $SLURM_JOB_NAME | tail -c 1)

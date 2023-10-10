@@ -45,7 +45,7 @@ from tokenizers import AddedToken
 from transformers import T5Tokenizer
 
 # checkpoint_dir="/home/u131168/mh_shell/ft_models/flan-t5-xl_peft_finetuned_model/"
-checkpoint_dir=f"/home/u131168/{mh_dir}/ft_models/flan-t5-xl_mt5_v2/"
+checkpoint_dir=f"/home/u131168/{mh_dir}/ft_models/flan-t5-xl_mt5_v3/"
 checkpoint_name=subprocess.check_output(f"ls {checkpoint_dir} | grep checkpoint | tail -1",shell=True)
 checkpoint_name=str(checkpoint_name).replace("b'","").replace("\\n'","")
 checkpoint_path=checkpoint_dir+checkpoint_name
