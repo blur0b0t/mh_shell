@@ -6,3 +6,7 @@
 5 $$ class App extends React.Component render() return { h1>Hello, world!} /h1>;
 6 $$ var input = document.createElement('input'); input.type = 'file'; input.onchange = e => {; let file = e.target.files[0]; } ; document.body.appendChild(input);
 7 $$ none
+0 $$ @Test public void testAdd() { Calculator calculator = new Calculator(); int result = calculator.add(2, 3); assertEquals(5, result); }
+1 $$ none
+2 $$ for(int i = 0 i < arr.length i++) System.out.println(arr[i]);
+3 $$ git commit -m 'Initial commit'
