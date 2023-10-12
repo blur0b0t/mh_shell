@@ -1,0 +1,188 @@
+got current job name=fts1
+new job name=fts2
+new job created with id: 29765
+----------checking if gpu available on current job-----------------
+no change     /home/common/miniconda3/condabin/conda
+no change     /home/common/miniconda3/bin/conda
+no change     /home/common/miniconda3/bin/conda-env
+no change     /home/common/miniconda3/bin/activate
+no change     /home/common/miniconda3/bin/deactivate
+no change     /home/common/miniconda3/etc/profile.d/conda.sh
+no change     /home/common/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/common/miniconda3/shell/condabin/Conda.psm1
+no change     /home/common/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/common/miniconda3/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/common/miniconda3/etc/profile.d/conda.csh
+modified      /home/u131168/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+-------------------------------------------
+users render freetier premium
+ 
+:: initializing oneAPI environment ...
+   slurm_script: BASH_VERSION = 5.1.16(1)-release
+   args: Using "$@" for setvars.sh arguments: --force
+:: advisor -- latest
+:: ccl -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: embree -- latest
+:: inspector -- latest
+:: intelpython -- latest
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+:: ipp -- latest
+:: ippcp -- latest
+:: ispc -- latest
+:: itac -- latest
+:: mkl -- latest
+:: modelzoo -- latest
+:: modin -- latest
+:: mpi -- latest
+:: neural-compressor -- latest
+:: oidn -- latest
+:: openpgl -- latest
+:: openvkl -- latest
+:: ospray -- latest
+:: ospray_studio -- latest
+:: pytorch -- latest
+:: rkcommon -- latest
+:: rkutil -- latest
+:: tbb -- latest
+:: tensorflow -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+Warning: ONEAPI_DEVICE_SELECTOR environment variable is set to opencl:cpu;opencl:fpga;level_zero:1.
+To see the correct device id, please unset ONEAPI_DEVICE_SELECTOR.
+
+[opencl:cpu:0] Intel(R) OpenCL, Intel(R) Xeon(R) Platinum 8480+ 3.0 [2023.16.7.0.21_160000]
+[opencl:acc:1] Intel(R) FPGA Emulation Platform for OpenCL(TM), Intel(R) FPGA Emulation Device 1.2 [2023.16.7.0.21_160000]
+[opencl:cpu:2] Intel(R) OpenCL, Intel(R) Xeon(R) Platinum 8480+ 3.0 [2023.16.7.0.21_160000]
+[ext_oneapi_level_zero:gpu:0] Intel(R) Level-Zero, Intel(R) Data Center GPU Max 1100 1.3 [1.3.26516]
+Warning: ONEAPI_DEVICE_SELECTOR environment variable is set to opencl:cpu;opencl:fpga;level_zero:1.
+To see the correct device id, please unset ONEAPI_DEVICE_SELECTOR.
+
+num_gpu=1\n
+Warning: ONEAPI_DEVICE_SELECTOR environment variable is set to opencl:cpu;opencl:fpga;level_zero:1.
+To see the correct device id, please unset ONEAPI_DEVICE_SELECTOR.
+
+num_cpu=2\n
+/var/spool/slurmd/job29764/slurm_script: line 36: [: missing `]'
+-------------------------------------------
+starting fine tuning model
+/var/spool/slurmd/job29764/slurm_script: line 46: cd: /home/u131168/mh_shell/ft_models/intel-extension-for-transformers/workflows/chatbot/fine_tuning: No such file or directory
+Defaulting to user installation because normal site-packages is not writeable
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+/var/spool/slurmd/job29764/slurm_script: line 48: cd: /home/u131168/mh_shell/ft_models/intel-extension-for-transformers/workflows/chatbot/fine_tuning/instruction_tuning_pipeline: No such file or directory
+Defaulting to user installation because normal site-packages is not writeable
+Collecting git+https://github.com/huggingface/transformers
+  Cloning https://github.com/huggingface/transformers to /tmp/pip-req-build-auvaj16s
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-req-build-auvaj16s
+  Resolved https://github.com/huggingface/transformers to commit e1cec43415e72c9853288d4e9325b734d36dd617
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting filelock (from transformers==4.35.0.dev0)
+  Using cached filelock-3.12.4-py3-none-any.whl (11 kB)
+Collecting huggingface-hub<1.0,>=0.16.4 (from transformers==4.35.0.dev0)
+  Downloading huggingface_hub-0.18.0-py3-none-any.whl (301 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 302.0/302.0 kB 11.6 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (23.1)
+Requirement already satisfied: pyyaml>=5.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (6.0)
+Collecting regex!=2019.12.17 (from transformers==4.35.0.dev0)
+  Downloading regex-2023.10.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (773 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 773.3/773.3 kB 26.4 MB/s eta 0:00:00
+Requirement already satisfied: requests in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (2.31.0)
+Collecting tokenizers<0.15,>=0.14 (from transformers==4.35.0.dev0)
+  Downloading tokenizers-0.14.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 52.0 MB/s eta 0:00:00
+Collecting safetensors>=0.3.1 (from transformers==4.35.0.dev0)
+  Downloading safetensors-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 46.3 MB/s eta 0:00:00
+Requirement already satisfied: tqdm>=4.27 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (4.65.0)
+Collecting fsspec>=2023.5.0 (from huggingface-hub<1.0,>=0.16.4->transformers==4.35.0.dev0)
+  Using cached fsspec-2023.9.2-py3-none-any.whl (173 kB)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface-hub<1.0,>=0.16.4->transformers==4.35.0.dev0) (4.6.3)
+Collecting huggingface-hub<1.0,>=0.16.4 (from transformers==4.35.0.dev0)
+  Downloading huggingface_hub-0.17.3-py3-none-any.whl (295 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 295.0/295.0 kB 18.2 MB/s eta 0:00:00
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers==4.35.0.dev0) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers==4.35.0.dev0) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers==4.35.0.dev0) (2.0.3)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers==4.35.0.dev0) (2023.7.22)
+Building wheels for collected packages: transformers
+  Building wheel for transformers (pyproject.toml): started
+  Building wheel for transformers (pyproject.toml): finished with status 'done'
+  Created wheel for transformers: filename=transformers-4.35.0.dev0-py3-none-any.whl size=7755146 sha256=5f0186e030decc42ba37f0be2ec5f27337ea463ea3f8eb6612be68a25af8a395
+  Stored in directory: /tmp/pip-ephem-wheel-cache-6lvwamyc/wheels/14/a0/7b/8f6b25ba4110aa215fcb8d6aedd6cd4f9b9b6619190999ac2b
+Successfully built transformers
+Installing collected packages: safetensors, regex, fsspec, filelock, huggingface-hub, tokenizers, transformers
+  WARNING: The script huggingface-cli is installed in '/home/u131168/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script transformers-cli is installed in '/home/u131168/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed filelock-3.12.4 fsspec-2023.9.2 huggingface-hub-0.17.3 regex-2023.10.3 safetensors-0.4.0 tokenizers-0.14.1 transformers-4.35.0.dev0
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: tokenizers in /home/u131168/.local/lib/python3.9/site-packages (0.14.1)
+Requirement already satisfied: huggingface_hub<0.18,>=0.16.4 in /home/u131168/.local/lib/python3.9/site-packages (from tokenizers) (0.17.3)
+Requirement already satisfied: filelock in /home/u131168/.local/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (3.12.4)
+Requirement already satisfied: fsspec in /home/u131168/.local/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (2023.9.2)
+Requirement already satisfied: requests in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (2.31.0)
+Requirement already satisfied: tqdm>=4.42.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (4.65.0)
+Requirement already satisfied: pyyaml>=5.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (6.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (4.6.3)
+Requirement already satisfied: packaging>=20.9 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (23.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->huggingface_hub<0.18,>=0.16.4->tokenizers) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->huggingface_hub<0.18,>=0.16.4->tokenizers) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->huggingface_hub<0.18,>=0.16.4->tokenizers) (2.0.3)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->huggingface_hub<0.18,>=0.16.4->tokenizers) (2023.7.22)
+/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/checkpoint-31100
+python: can't open file '/home/u131168/mh_shell/ft_model_pp/finetune_seq2seq.py': [Errno 2] No such file or directory
+finished fine tuning model

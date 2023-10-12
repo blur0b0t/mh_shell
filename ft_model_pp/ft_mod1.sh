@@ -43,9 +43,12 @@ echo "-------------------------------------------"
 
 
 echo "starting fine tuning model"
-cd "/home/u131168/mh_shell/ft_models/intel-extension-for-transformers/workflows/chatbot/fine_tuning"
+cd "/home/u131168/mh_shell/ft_model_pp/itp"
 pip install -r "requirements.txt"
-cd "/home/u131168/mh_shell/ft_models/intel-extension-for-transformers/workflows/chatbot/fine_tuning/instruction_tuning_pipeline"
+# To use ccl as the distributed backend in distributed training on CPU requires to install below requirement.
+python -m pip install oneccl_bind_pt -f https://developer.intel.com/ipex-whl-stable-cpu
+
+cd "/home/u131168/mh_shell/ft_model_pp/itp"
 # pip install intel-extension-for-transformers
 # pip install fschat==0.1.2
 pip install git+https://github.com/huggingface/transformers
