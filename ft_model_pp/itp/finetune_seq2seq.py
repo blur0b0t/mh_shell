@@ -383,10 +383,10 @@ def main():
     if model_args.tokenizer_name:
         tokenizer = AutoTokenizer.from_pretrained(model_args.tokenizer_name, **tokenizer_kwargs)
     elif model_args.model_name_or_path:
-        # tokenizer = AutoTokenizer.from_pretrained(model_args.model_name_or_path, **tokenizer_kwargs)
+        tokenizer = AutoTokenizer.from_pretrained(model_args.model_name_or_path, **tokenizer_kwargs)
         
         from tokenizers import AddedToken
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-xl")
+        # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-xl")
         stokens_v3=["{","}","<","`","\\"]
         stokens=stokens_v3
         for st in stokens:
