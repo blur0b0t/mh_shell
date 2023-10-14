@@ -11,3 +11,4 @@ data/f_traind_v1.csv
 
 # find ./ -size +60M 
 # git config http.postBuffer 524288000
+# git rm -rf --cached ./
