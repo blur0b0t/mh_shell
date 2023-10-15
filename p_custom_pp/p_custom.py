@@ -12,7 +12,7 @@ mh_dir='mh_shell'
 # start_index=[0,9500,19000]
 # end_index=[9500,19000,29000]
 # file_name=['0_10k.csv','10_20k.csv','20_30k.csv']
-pred_file_name="full_pred6.csv"
+pred_file_name="full_pred7.csv"
 pred_file_path=f"/home/u131168/{mh_dir}/data/custom_pred/{pred_file_name}"
 # start_index=subprocess.get_output("tail {} -n 1 | awk -F' ' '{print $1}'".format(file_name))
 start_index=subprocess.check_output("tail "+pred_file_path+" -n 1 | awk -F' ' '{print $1}'",shell=True)
