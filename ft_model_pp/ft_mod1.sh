@@ -85,7 +85,7 @@ python finetune_seq2seq.py \
         --per_device_eval_batch_size 2 \
         --gradient_accumulation_steps 1 \
         --do_train \
-        --learning_rate 1.0e-5 \
+        --learning_rate 1.0e-6 \
         --warmup_ratio 0.03 \
         --weight_decay 0.0 \
         --num_train_epochs 1 \
