@@ -1,0 +1,3 @@
+
+
+  <base href="/flutter_app/mhs_pred_app/build/web/">
