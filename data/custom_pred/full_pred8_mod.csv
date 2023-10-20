@@ -1,0 +1,532 @@
+index,answer
+0," @Test public void testAdd() { Calculator calculator = new Calculator(); int result = calculator.add(2, 3); assertEquals(5, result); }"
+2, for(int i = 0 i < arr.length i++) System.out.println(arr[i]);
+5," class App extends React.Component render() return < h1>Hello, world!< /h1>;"
+6, var input = document.createElement('input'); input.type = 'file'; input.onchange = e => { let file = e.target.files[0]; } ; document.body.appendChild(input);
+13," def test_add():\ n\ tassert add(2, 3) == 5"
+17," def test_add(): assert add(2, 3) == 5"
+20," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World'); } }"
+21, fetch('https://api.example.com/data').then(response => response.json()).then(data => console.log(data));
+27, version: '3' services: web: build:. ports: - '5000:5000'
+29, <!DOCTYPE html> < html> < head> < title>Page Title< /title> < /head> < body> < h1>This is a Heading< /h1> < p>This is a paragraph.< /p> < /body> < /html>
+33," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!'); } }"
+34," function add(a, b) { return a + b; }"
+36," #include < iostream> using namespace std; int main() { cout << 'Hello, World!'; return 0; }"
+50," print Hello, world!"
+52," pipeline, stages, build, test, deploy"
+59," fn main, println Hello, world!"
+66," fun main() { { n println(""Hello, World!"") }"
+69," function add(a, b) { \ n return a + b; \ n }"
+71," let greeting = ""Hello, World!"" \ n print(greeting)"
+73," void sort(int arr[], int n) { \ n for (int i = 0; i < n; i++) \ n for (int j = 0; j < n-i-1; j++) \ n if (arr[j] > arr[j+1]) \ n swap(&arr[j], &arr[j+1]); \ n }"
+79," class Program { static void Main(string[] args) { Console.WriteLine('Hello, world!'); } }"
+82," for i in range(1, 11): print(i)"
+84," const numbers = [1, 2, 3, 4]; const doubled = numbers.map(n => n * 2);"
+89, int[] numbers = new int[5];
+91," class Rectangle { int width, height; public: void set_values (int,int); int area() { return width*height;} } ;"
+100," int findMax(int arr[], int n) { int max = arr[0]; for (int i = 1; i < n; i++) if (arr[i] > max) max = arr[i]; return max; }"
+107, git merge feature-branch
+108, public class Singleton { private static Singleton instance; private Singleton() {} public static Singleton Instance { get { if (instance == null) { instance = new Singleton(); } return instance; } } }
+109," print('Hello, World!')"
+112," function addNumbers(a, b) { return a + b; }"
+119, my_list = []\ nmy_list.append('Hello')\ nmy_list.append('World')\ nprint(my_list)
+120, function factorial(n) {\ nif (n === 0) {\ nreturn 1;\ n} else {\ nreturn n * factorial(n - 1);\ n}\ n}
+123," fn main() {\ nprintln!('Hello, World!');\ n}"
+125," Console.WriteLine('Hello, World!');"
+128," test('adds 1 + 2 to equal 3', () => { expect(sum(1, 2)).toBe(3); } );"
+129," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!');}}"
+133, Get-ChildItem -Path C:\ -Recurse
+134," def addTwoNumbers(a, b): return a + b"
+138, public static int factorial(int n) { if (n == 0) return 1; else return n * factorial(n-1); }
+140," #include < cassert> void testAdd() { assert(add(2, 3) == 5); }"
+142, function changeBackgroundColor(color) { document.body.style.background = color; }
+147, function sumArray(array) { var sum = 0; for (var i = 0; i < array.length; i++) { sum += array[i]; } return sum; }
+152, use strict'
+154, public static void main(String args[]){\n // code block\n }
+156, public const int MaxItems = 100;
+158," a, b = b, a"
+164," public class HelloWorld {\ n public static void main(String[] args) {\ n System.out.println(""Hello, World!"");\ n}\ n}"
+169, git clone https://github.com/user/repository.git
+174, def print_details(self):\ n print(f'Name: { self.name} ')\ n print(f'Age: { self.age} ')\ n
+177, function bubbleSort(arr) {\ n for(let i = 0; i < arr.length; i++) {\ n for(let j = 0; j < arr.length - i - 1; j++) {\ n if(arr[j] > arr[j + 1]) {\ n let temp = arr[j];\ n arr[j] = arr[j + 1];\ n arr[j + 1] = temp;\ n }\ n }\ n return arr;\ n }
+180, document.getElementById('demo').innerHTML = 'Hello JavaScript';
+182," public class Main { public static void main(String[] args) { System.out.println('Hello, World!');}}"
+187," function greet(name) { return 'Hello,'+ name;}"
+196, git init
+198," var http = require('http'); http.createServer(function (req, res) { res.writeHead(200, { 'Content-Type': 'text/html'} ); res.end('Hello World!'); } ).listen(8080);"
+201, YAML file
+209," print('Hello, World!')"
+211," println('Hello, World!')"
+223," def hello(): print('Hello, World!')"
+224," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!'); } }"
+230," #include < iostream> int main() { std::cout << 'Hello, World!'; return 0; }"
+231," function sum(a, b) { return a + b; }"
+233, for(int i = 0; i < 10; i++) { Console.WriteLine(i); }
+235, System.out.println()
+237, int x = 10; if (x > 0) { cout << 'Positive number'; } else { cout << 'Negative number'; }
+243, Button Content='Click me' Width=100 Height=50
+246," int arr[5] = { 1, 2, 3, 4, 5} ;"
+253," public class HelloWorld {\ n\ tpublic static void main(String[] args) {\ n\ t\ tSystem.out.println('Hello, World!');\ n\ t}\ n}"
+254," System.out.println('Hello, World!');"
+259," int main() { std::cout << 'Hello, World!' << std::endl; return 0; }"
+262," package main import 'fmt' func main() { fmt.Println('Hello, World!') }"
+264," document.getElementById('myId').innerHTML = 'Hello, World!';"
+266," def greet(name): return f'Hello, { name}!'"
+268," fun main() { println('Hello, World!') }"
+269," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!');}}"
+271," #include < iostream> using namespace std; int main() { cout << 'Hello, World!'; return 0;}"
+273," function greet() { console.log('Hello, World!');}"
+275," public class Calculator { public int Add(int a, int b) { return a + b;}}"
+281," package main import 'fmt' func main() { fmt.Println('Hello, World!')"
+287," function greet(name) { alert('Hello,'+ name + '!'); }"
+291, alert('This is a message box!')
+293," function add(a, b) { return a + b; }"
+297," #include < iostream> int main() { std::cout << 'Hello, World!'; return 0; }"
+301," #include < stdio.h> int main() { printf('Hello, World!'); return 0; }"
+303," print('Hello, World!')"
+304, public int fibonacci(int n) { if (n < = 1) return n; else return fibonacci(n-1) + fibonacci(n-2);}
+306, git checkout -b new_branch_name
+312, int factorial(int n) { if(n > 1) return n * factorial(n - 1); else return 1;}
+314," document.getElementById('myElement').innerHTML = 'Hello, World!';"
+319," myArray.sort()', 'print('Hello, World!')"
+321, int factorial(int n) { if(n > 1) return n * factorial(n - 1); else return 1; }
+323, System.out.println()
+327, function factorial(n){ if(n == 0){ return 1; } else { return n * factorial(n-1); }}
+332," import unittest class TestStringMethods(unittest.TestCase): def test_upper(self): self.assertEqual('foo'.upper(), 'FOO') if __name__ == '__main__': unittest.main()"
+334, <!DOCTYPE html> < html> < head> < title>Page Title< /title> < /head> < body> < h1>My First Heading< /h1> < p>My first paragraph.< /p> < /body> < /html>
+337," import pdb def buggy_function(a, b): pdb.set_trace() return a / b"
+339," import org.junit.*; public class SimpleTest { @Test public void testAddition() { int a = 3; int b = 4; int result = a + b; Assert.assertEquals(7, result); } }"
+346," public class HelloWorld {\ n\ t public static void main(String[] args) {\ n\ t\ t System.out.println('Hello, World!');\ n\ t }\ n }"
+352, #!/bin/bash\ n\ n# Update the system\ nsudo apt-get update -y\ nsudo apt-get upgrade -y
+354," #include< iostream>\ nint main() {\ n std::cout << 'Hello, World!';\ n return 0;\ n}"
+356," func greet(name: String) {\ n print('Hello, < (name)')\ n}"
+358, < Button Width='75' Height='25' Content='Click me' />
+362, Get-Process
+364," print('Hello, World!')"
+365, db.collection.find()
+373," alert('Hello, World!')"
+376," #include < iostream> int main() { std::cout << 'Hello, World!' << std::endl; return 0; }"
+378," public class Main { public static void main(String[] args) { System.out.println('Hello, World!'); } }"
+379," def greet(name): print(f'Hello, { name}!')"
+381," function greet(name) { console.log({ Hello, ${ name}!} );}"
+387," var greeting = function(name) { return 'Hello,'+ name + '!';} ;"
+391," function Greet($name) { Write-Host ""Hello, $name!""}"
+393," fun greet(name: String) { println(""Hello, $name!"")}"
+397," #include< iostream> int main(){ std::cout << ""Hello World""; return 0;}"
+402," public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World!"");}}"
+404," def hello_world puts 'Hello, World!' end"
+406," #include< stdio.h> int main(){ printf(""Hello, World!""); return 0;}"
+408," fun greet(name: String): String { return ""Hello, $name!""}"
+411," console.log('Hello, World!');"
+415, git init
+424, def factorial(n):\ nif n == 0:\ n\ treturn 1\ nelse:\ n\ treturn n * factorial(n-1)\ n
+427," public class HelloWorld {\ n\ tpublic static void main(String[] args) {\ n\ t\ tSystem.out.println(""Hello, World!"");\ n\ t}\ n}"
+429, def factorial(n): if n == 1: return 1 else: return n * factorial(n-1)
+432, function sumArray(arr) { let sum = 0; for(let i = 0; i < arr.length; i++) { sum += arr[i]; } return sum; }
+434," public class User { private String name; private String email; public User(String name, String email) { this.name = name; this.email = email; } public String getName() { return name; } public String getEmail() { return email; } }"
+445, const express = require('express'); const app = express(); app.listen(3000)
+453, document.getElementById('myParagraph').textContent = 'New text';
+454, git init command
+456," def greet(name): return 'Hello,'+ name"
+457," public class declaration', 'public static void main(String[] args)"
+458," def add(a, b): return a + b', 'INSERT INTO Users (Username, Password) VALUES ('user', 'password')"
+459," def fibonacci(n): a, b = 0, 1 while a < n: print(a, end=' ') a, b = b, a+b"
+461," class Program { static void Main() { Console.WriteLine('Hello, World!'); } }"
+463, var x = 0;
+467," function add(a, b) { return a + b; }"
+469, public class MyThread extends Thread { \ n public void run(){ \ n System.out.println('Thread is running...'); \ n } \ n} \ n\ nMyThread t1=new MyThread(); \ nt1.start();
+471," let person = { \ n 'name': 'John', \ n 'age': 30, \ n 'city': 'New York' \ n} ;"
+473, #include < vector> \ n\ nint main() { \ n std::vector< int> myVector; \ n myVector.push_back(1); \ n myVector.push_back(2); \ n myVector.push_back(3); \ n return 0; \ n}
+475, squares = [x**2 for x in range(10)]
+476," package main\ n\ nimport 'fmt'\ n\ nfunc main() {\ n fmt.Println('Hello, World!')\ n}"
+478," var myString = 'Hello, World!' \ n\ nif myString.isEmpty { \ n print('String is empty') \ n} else { \ n print(myString) \ n}"
+482," fn main() { println!(""Hello, world!""); }"
+484, git clone https://github.com/user/repo.git
+486," import unittest class TestStringMethods(unittest.TestCase): def test_upper(self): self.assertEqual('foo'.upper(), 'FOO')"
+487," window.alert('Hello, world!')"
+493, git init
+494, git clone https://github.com/user/repo.git
+498," function greet(name) { \ n return Hello, + name +!; \ n }"
+499," public class HelloWorld { \ n public static void main(String[] args) { \ n System.out.println('Hello, World!'); \ n } \ n}"
+501, for i in range(10): \ n print(i)
+504, var x = 10; var y = 20; var z = x + y; console.log(z);
+510, public class Car { private String color; public Car(String color) { this.color = color; } public String getColor() { return color; } }
+517, public class Box { double width; double height; double depth; }
+518," fun greet() { println('Hello, world!') }"
+522," function addNumbers(a, b) {\ n\ treturn a + b;\ n}"
+528," def is_prime(n):\ n\ tif n < = 1:\ n\ t\ treturn False\ n\ tfor i in range(2, n):\ n\ t\ tif n % i == 0:\ n\ t\ t\ treturn False\ n\ treturn True"
+538, none
+540, npm install package-name
+542, public class Dog { private String name; public Dog(String name) { this.name = name; } public String getName() { return this.name; } }
+544, int square(int x) { return x * x; }
+546," let promise = new Promise(function(resolve, reject) { setTimeout(() => resolve('done!'), 1000); } );"
+548, def create @user = User.new(user_params) if @user.save redirect_to @user else render 'new' end end n}
+564, for i in range(10): print(i)
+572," fun greet() { println('Hello, World!') }"
+574, int myVar = 5;} n
+576, var myVar = 5
+578, int myVar = 5;} n}
+581," print('Hello, World!')"
+586," CREATE TABLE Employees (ID INT PRIMARY KEY NOT NULL, NAME TEXT NOT NULL, AGE INT NOT NULL, ADDRESS CHAR(50));"
+588, git clone https://github.com/user/repo.git
+590," def hello_world(): print('Hello, world!')"", ""public static void main(String[] args) { System.out.println('Hello, World!'); }"
+592, fetch('https://api.example.com/data')
+598," def hello \ nputs 'Hello, World!' \ nend \ nhello"
+602, git clone https://github.com/user/repo.git} n
+604, print('This is a debug message')
+608," def greet(): \ nreturn 'Hello, World!' \ nprint(greet())"
+610," import unittest class TestStringMethods(unittest.TestCase): def test_upper(self): self.assertEqual('foo'.upper(), 'FOO')"
+613, List< Integer> numbers = new ArrayList< Integer>();\ nfor (Integer number : numbers) {\ nSystem.out.println(number);\ n}
+614, class MyClass { public: int myFunction() { return 0; } } ;
+620, for(int i=0; i< arr.length; i++) { /* do something with arr[i] */ }
+623," git push', 'npm install', 'npm test', 'npm run build"
+627, SELECT * FROM users WHERE age > 18
+631, if (denominator == 0) \ n{\ n\ tthrow new DivideByZeroException();\ n}
+633," def calculate_sum(a, b):\ n\ treturn a + b"
+635," public class HelloWorld {\ n\ tpublic static void main(String[] args) {\ n\ t\ tSystem.out.println('Hello, World!');\ n\ t}\ n}"
+644, function factorial(n) {\ n\ tif (n === 0) {\ n\ t\ treturn 1;\ n\ t}\ n\ t}\ n}
+649," int[] numbers = { 1, 2, 3, 4, 5} ;\ n\ nfor (int i = 0; i < numbers.length; i++) {\ n System.out.println(numbers[i]);\ n}"
+651," def add_two_numbers(num1, num2):\ n\ treturn num1 + num2"
+652, function factorial(n) {\ n\ tif (n === 0) {\ n\ t\ treturn 1;\ n\ t}\ n\ telse {\ n\ t\ treturn n * factorial(n - 1);\ n\ t}\ n}
+654," public String reverseString(String str) {\ n\ tString reversed = """";\ n\ tfor (int i = str.length() - 1; i >= 0; i--) {\ n\ t\ treversed += str.charAt(i);\ n\ t}\ n\ treturn reversed;\ n}"
+655, int square(int num) {\ n\ treturn num * num;\ n}\ n
+659," print('Hello, World!')"
+663," public int add(int a, int b) { return a + b; }"
+667," def divide(a, b): return a / b"
+673, none
+676," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!'); }}"
+677, int arr[10];
+679," import org.junit.Test; import static org.junit.Assert.assertEquals; public class TestJunit { @Test public void testAdd() { String str = 'Junit is working fine'; assertEquals('Junit is working fine', str); }}"
+684," const sum = (x, y) => x + y; console.log(sum(1, 2));"
+686, git clone https://github.com/user/repo.git
+689, def calculate_average(numbers): sum = 0 for number in numbers: sum += number return sum / len(numbers)
+693, for(int i = 0; i < 10; i++) { System.out.println(i);}
+696, int factorial(int n) { if(n==0) return 1; else return n*factorial(n-1);}
+700, public static boolean isEven(int num) { return num % 2 == 0;}
+702," function max(a, b) { return a > b? a : b;}"
+706, function square(num) { return num * num;}
+710, try { throw std::out_of_range('Out of Range Error'); } catch(const std::exception& e) { std::cerr << e.what() <<'how n'; }
+714," print('Hello, World!')"
+720,"fn main() {\nprintln!('Hello, World!');\n}"
+722,"var message = 'Hello, World!'\nprint(message)"
+724,"fun main() {\nprintln('Hello, World!')\n}"
+727," print('Hello, World!')"
+729, // this function adds two numbers in a JavaScript code
+730, none
+737, getInstance()
+739, public class ClientClass { private ServiceClass sc; public ClientClass(ServiceClass sc) { this.sc = sc; } }
+742," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!');}}"
+756," import Swift\n\nprint('Hello, World!')"
+757," class Program { static void Main() { Console.WriteLine('Hello, world!'); } }"
+761," #include < iostream> using namespace std; int main() { cout << 'Hello, World!'; return 0; }"
+771," function calculateRectangleArea(width, height) {\ n return width * height;\ n}\ n\ nfunction calculateArea(width, height) {\ n if (height === undefined) {\ n height = width;\ n }\ n return width * height;\ n}"
+773, git init\n\ngit add .\n\ngit commit -m 'Initial commit'
+786," function add(a, b) { return a + b; }"
+788, public int Factorial(int n) { return n == 0? 1 : n * Factorial(n - 1); }
+792," print('Hello, World!')"
+793, int result = 1; for (int i = 1; i < = n; i++) { result *= i; }
+795," type Sprint struct { Start time.Time, End time.Time }"
+802, public class Person { private String name; public Person(String name) { this.name = name; } public String getName() { return name; } }
+805, def average(array) array.sum / array.length end
+808," def add(a, b): return a + b"
+812, import sklearn from sklearn import datasets
+813," print('Hello, World!')"
+814, System.out.println('Debug message');
+816," print('Hello, World!')"
+820," fmt.Println('Hello, World!')"
+828," print('Hello, World!')"
+830," List< Integer> list = Arrays.asList(3, 2, 1); Collections.sort(list);"
+837," import Swift\ nprint('Hello, World!')"
+844," fun main(args: Array< String>) {\ n\ tprintln('Hello, World!')\ n}"
+856," #!/bin/bash echo 'Hello, World'"
+858," import Swift print('Hello, World')"
+860," print('Hello, World!')"
+865, for (var i = 0; i < 5; i++) { console.log('Hello World!'); }
+870," 5.times do\ n\ tputs 'Hello, World!'\ nend"
+871, git commit -m 'Your commit message'
+874, docker run -d -p 8080:8080 your-image-name
+879," fun greet(name: String) {\ n\ tprintln('Hello, $name!')\ n} ngreet('World')"
+880," #include < iostream> using namespace std; int main() { cout << Hello, World!; return 0; }"
+884," import sys print(Hello, Python)"
+885," public class Main { public static void main(String[] args) { System.out.println('Hello, World!');}}"
+889," #include < algorithm> int main() { int arr[] = { 1, 5, 2, 4, 3} ; std::sort(arr, arr + 5); return 0;}"
+890," function greet(name) { return 'Hello,'+ name; }"
+891," fun showMessage(message: String) { Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT).show() }"
+897," var name = prompt('Please enter your name', 'Harry Potter');"
+899," package main import 'fmt' func main() { fmt.Println('Hello, World')}"
+905," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World');}}"
+911," class Program { static void Main(string[] args) { Console.WriteLine('Hello, Hackathon!'); } }"
+916," #include< iostream> int main() { std::cout << 'Hello, World!'; return 0; }"
+924," package main import 'fmt' func main() { fmt.Println('Hello, World!') }"
+928," items = ['apple', 'banana', 'cherry']\ nfor item in items:\ n print(item)\ n\"
+938," package main\ nimport ""fmt""\ nfunc main() {\ n fmt.Println(""Hello, World!"")\ n}"
+949, function capitalizeFirstLetter(string) { return string.charAt(0).toUpperCase() + string.slice(1);}
+951, int factorial(int n){ if(n > 1)return n * factorial(n - 1); else return 1;}
+953," func addTwoNumbers(num1: Int, num2: Int) -> Int { return num1 + num2}"
+955," for i in range(1, 11): if i % 2 == 0: print(i)"
+957," function sumArray(array) { return array.reduce((a, b) => a + b, 0);}"
+961," import unittest\ nclass TestSum(unittest.TestCase): def test_sum(self): self.assertEqual(sum([1, 2, 3]), 6)"
+963," def my_function(): print('Hello, world!')"
+966," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!'); } }"
+970," import unittest class TestSum(unittest.TestCase): def test_sum(self): self.assertEqual(sum([1, 2, 3]), 6, 'Should be 6') if __name__ == '__main__': unittest.main()"
+972," def addNumbers(a, b):\ n return a + b"
+976, public class HelloRunnable implements Runnable {\ n public void run() {\ n System.out.println('Hello from a thread!');\ n }\ n}\ n\ nThread t = new Thread(new HelloRunnable());
+977," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World'); } }"
+979," def add(a, b): return a + b"
+980," int calculateArea(int length, int breadth) { return length * breadth; }"
+1006," public int Add(int a, int b) { return a + b; }"
+1008, func square(n: Int) -> Int { return n * n }.} n}
+1010, def factorial(n) n == 0? 1 : n * factorial(n-1) end.} n}
+1013," with open('file.txt', 'r') as f: print(f.read())"
+1017, stages: - build - test build: stage: build script: make test: stage: test script: make test
+1026," void Main() { System.Console.WriteLine('Hello, World!'); }"
+1027, def fibonacci(n): if n < = 0: return 0 elif n == 1: return 1 else: return fibonacci(n-1) + fibonacci(n-2)
+1029," var numbers = [4, 2, 9, 3, 5, 1]; numbers.sort(function(a, b){ return a - b} );"
+1032," class Greeter { greeting: string; constructor(message: string) { this.greeting = message; } greet() { return 'Hello,'+ this.greeting; } }"
+1034," fn main() { println('Hello, world!'); }"
+1039," function greet(name) { return 'Hello,'+ name; }"
+1040," import SwiftUI let greeting = 'Hello, World!' print(greeting)"
+1043, try { throw 20; } catch (int e) { cout << An exception occurred. Exception Nr. << e << endl; }
+1046," describe('Array', function() { describe('#indexOf()', function() { it('should return -1 when the value is not present', function() { assert.equal([1, 2, 3].indexOf(4), -1); } ); } ); } );"
+1048, int arr[10];
+1050, Thread t = new Thread(new Runnable() { public void run() { // code to be executed in the thread } } ); t.start();
+1054," class Rectangle { int width, height; public: void set_values (int,int); int area() { return width*height;} } ; Rectangle rect; rect.set_values (3,4); cout << rect.area();"
+1056, for(int i = 0; i < array.length; i++){ System.out.println(array[i]); }
+1060," [TestMethod] public void TestMethod1() { Assert.AreEqual(1, 1); }"
+1062," document.getElementById('myButton').addEventListener('click', function() { alert('Button clicked!'); } );"
+1063, vector< int> v; v.push_back(1); v.push_back(2); v.push_back(3);
+1067," def greet(name) puts 'Hello,'+ name end greet('World')"
+1069, for i := 0; i < 10; i++ { fmt.Println(i) }
+1072," def hello_world(): print('Hello, world!')"
+1080," #!/bin/bash echo 'Hello, world!'"
+1085," a = 5, b = 10, print(a + b)"
+1088," fun main(args: Array< String>) { println(""Hello, World!"")}"
+1097," #include < stdio.h>, int main() { printf(""Hello, World!""); return 0;}"
+1101, while(!requirementsMet) { develop(); }
+1103, def function_name(parameter): { n\ treturn parameter + 1
+1105, class MyClass { \ n\ tint x; \ n\ tMyClass(int y) { \ n\ t\ tx = y; \ n\ t} n}
+1111, print 'Enter your name:'} n< tname = gets.chomp
+1113, stages: \ n\ t- build \ n\ t- test \ n\ t- deploy
+1118," #include < iostream> int main() { int a = 5, b = 0; try { if (b == 0) throw 'a'; a = a/b; } catch(char x) { std::cout<< 'Error'; } return 0; }"
+1120, pipeline: build: commands: - echo Building... - go build
+1122," /** * This method adds two integers. * @param a the first integer * @param b the second integer * @return the sum of a and b */ public static int add(int a, int b) { return a+b; }"
+1124, git init
+1128," function greet(name) { return 'Hello,'+ name + '!'; }"
+1129," def addNumbers(a, b): return a + b"
+1130," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!'); } }"
+1136," #include < iostream> int main() { std::cout << 'Hello, World!'; return 0; }"
+1138," function add(a, b) { return a + b; }"
+1143," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!'); } }"
+1145, int i = 1; while(i < = 10) { System.out.print(i); i++; }
+1148, git commit -m 'Initial commit'
+1151, class MyClass { public: int myNum; string myString; } ;
+1153, console.log()
+1156, print('This is a test')
+1158," function helloWorld() { console.log('Hello, world!'); }"
+1159," print('Hello, World!')"
+1162," System.out.println('Hello, World!')"
+1171," puts 'Hello, World!'"
+1173," fmt.Println('Hello, World!')"
+1177, git clone repository-url
+1181, npm install package-name
+1186, console.log()
+1191, var x int = 10
+1193," int myArray[5] = { 1, 2, 3, 4, 5} ;"
+1195, ArrayList< String> list = new ArrayList< String>();
+1197, #include < iostream> int main() { std::cout << 'Hello World!'; return 0; }
+1199, for (var i = 1; i < = 5; i++) { console.log(i); }
+1203, public static int Square(int num) { return num * num; }
+1204," print('Hello, World!')"
+1206, func fib(n int) int { if n < = 1 { return n } return fib(n-1) + fib(n-2) }
+1208, TypeScript code
+1211, var x = 10;
+1215, alert('This is an alert message!');
+1218," #include < iostream> \ nint main() { \ nstd::cout << 'Hello, World!'; \ nreturn 0; \ n}"
+1219," public class HelloWorld { \ npublic static void main(String[] args) { \ nSystem.out.println('Hello, World!'); \ n} \ n}"
+1222, var myArray = []; \ nmyArray.push('New Item');
+1225, public class AddNumbers { \ npublic static void main(String[] args) { \ nint a = 5; \ nint b = 7; \ nint sum = a + b; \ nSystem.out.println('The sum is'+ sum); \ n} \ n}
+1226, #include < iostream> \ nusing namespace std; \ nint main() { \ nint length = 5; \ nint width = 7; \ nint area = length * width; \ ncout << 'The area of the rectangle is'<< area << endl; \ nreturn 0; \ n}
+1229," print('Hello, world!')"
+1231," git init', 'git add.', 'git commit -m 'Initial commit'"
+1233," #include < iostream> \ n int main() { std::cout << Hello, World!; }"
+1234," print('Hello World')"", ""#include< iostream> using namespace std; int main(){ cout<< 'Hello World'; return 0; }"
+1236," public static void main(String[] args){ System.out.println('Hello, World!'); }"
+1238, #include< iostream> using namespace std; int main(){ cout<< 'Hello World'; return 0; }
+1246," fn main() { println!('Hello, World!'); }"
+1251, int a = 10;
+1252, var x = 5;
+1254," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!'); } }"
+1256, let greeting = 'Hello Swift';
+1261, let x = 5;
+1263," go func() { fmt.Println('Hello, Go!') } ()"
+1265," print('Hello, world!')"
+1271," function add(a: number, b: number): number {\ nreturn a + b;\ n}"
+1274," puts 'Hello, World!'"
+1278," function add(a, b) {\ nreturn a + b;\ n}"
+1279," fun main() {\ nprintln('Hello, World!')\ n}"
+1284," assert sum([1, 2, 3]) == 6"
+1286, public class Person { string name; int age; string address; }
+1288," func main() { fmt.Println('Hello, microservices!') }"
+1292, if (password.length < 8) { System.out.println('Password is too short.'); }
+1294, class VR { void renderScene(Scene scene) { // render the scene } }
+1297," print('Hello, World!')"
+1302," print('Hello, World!')"
+1309," vector< int> v = { 3, 2, 1} ; sort(v.begin(), v.end())"
+1313," public void printHelloWorld() { System.out.println('Hello, world!'); }"
+1315," func greet(name: String) { print('Hello, < (name)') }"
+1320," func main() { fmt.Println('Hello, World!') }"
+1332, git clone https://github.com/user/repo.git } n}
+1338, print()
+1343, for(int i = 0; i < arr.length; i++) { System.out.println(arr[i]); }
+1345, let mut v = Vec::new(); v.push(1);
+1347," print('Hello, world!')"
+1351, int num = 10; if(num % 2 == 0) { cout << 'Even'; } else { cout << 'Odd'; }
+1355, require 'net/http' \ n uri = URI('http://example.com') \ n res = Net::HTTP.get_response(uri)
+1372, SELECT * FROM users;
+1378," public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!'); } }"
+1384," fun sayHello() { println('Hello, world!') }"
+1388," function greet() { console.log('Hello, world!'); }"
+1390," #include < iostream> int main() { std::cout << 'Hello, World!'; return 0; }"
+1392," for i in range(1, 11): print(i)"
+1397, stages: - build - test - deploy
+1400, function greet(name) { return 'Hello'+ name; }
+1403," var array = ['Apple', 'Banana', 'Cherry'];"", 'console.log(array[0]);"
+1406, ng new my-app
+1407," def add(num1, num2): return num1 + num2"
+1408, pipeline: build: image: golang:1.12.9 commands: - go build - go test
+1411," public class HelloWorld { public static void main(String[] args) { System.out.println(""Hello, World""); } }"
+1414, var x = 5; console.log(x);
+1421," package main import 'fmt' func main() { fmt.Println('Hello, World!') }"
+1424," class Program { static void Main(string[] args) { Console.WriteLine('Hello, World!'); } }"
+1430, git log
+1440, g++ main.cpp -o main
+1441," print('Hello, World!')"
+1443," void bubbleSort(int arr[], int n) {\ n\ tfor (int i = 0; i < n-1; i++)\ n\ t\ tfor (int j = 0; j < n-i-1; j++)\ n\ t\ t\ tif (arr[j] > arr[j+1])\ n\ t\ t\ t\ tswap(&arr[j], &arr[j+1]);\ n}"
+1445, for(int i = 0; i < 10; i++){ System.out.println(i); }} n\ n
+1449, if(x > 5){ Console.WriteLine('x is greater than 5'); }} n\ n
+1451," int arr[5] = { 1, 2, 3, 4, 5} ;} n}"
+1453, for(i in 1..10){ println(i) }} n}
+1458," function validateForm() { let x = document.forms[""myForm""][""fname""].value; if (x == """") { alert(""Name must be filled out""); return false; } }"
+1459," #!/bin/bash echo ""Hello, World!"""
+1469, def find_largest(lst):\ n return max(lst)
+1473, SELECT * FROM table_name;
+1475, SystemoutprintHello World
+1477, Git commit m 'Initial commit'
+1490, public class Animal { private String name; public Animal(String name) { this.name = name; } public String getName() { return name; } }
+1492," def greet(name): print(f'Hello, { name} ')"
+1493, git commit -m 'Commit message'
+1495," import unittest class TestStringMethods(unittest.TestCase): def test_upper(self): self.assertEqual('foo'.upper(), 'FOO')"
+1497," public int binarySearch(int array[], int x) { int l = 0, r = array.length - 1; while (l < = r) { int m = l + (r - l) / 2; if (array[m] == x) return m; if (array[m] < x) l = m + 1; else r = m - 1; } return -1; }"
+1505," print('Hello, World!')"
+1512," public class HelloWorld { public static void Main(string[] args) { System.Console.WriteLine('Hello, World!');}}"
+1514," fn main() { println!('Hello, World!');}"
+1515," print('Hello, World!')"
+1517, System.out.println();
+1525," print('Hello, World!')"
+1529," echo 'Hello, World!'"
+1532," fmt.Println('Hello, World!')"
+1534," def addNumbers(a, b): return a + b"
+1545, rails generate controller Greeting hello
+1546, import requests response = requests.get('http://api.example.com')
+1554," function add(a, b) { return a + b; }"
+1556, def factorial(n): if n == 0: return 1 else: return n * factorial(n-1) } n}
+1560, func square(n: Int) -> Int { return n * n } } n}
+1568, for i in range(10): print(i)
+1577," fun main() { println('Hello, World!') }"
+1579," function greet(name: string) { return 'Hello,'+ name; }"
+1581, while(!gameOver) { processInput(); update(); render(); }
+1583, for i in range(10): print(i)
+1585, git init 
+1586, public class Singleton { private static Singleton instance = new Singleton(); private Singleton() {} public static Singleton getInstance() { return instance; } }
+1588, if (value > 10) { Console.WriteLine('Greater than 10'); } else { Console.WriteLine('Less than or equal to 10'); }
+1592," func add(a int, b int) int { return a + b }"
+1594, int factorial(int n) { if (n == 0) { return 1; } else { return n * factorial(n - 1); } }
+1598, func factorial(n: Int) -> Int { if n < = 1 { return 1 } else { return n * factorial(n: n - 1) } }
+1600," print('Hello, World!')"
+1605," #include < iostream> using namespace std; int main() { cout << 'Hello, World!'; return 0; }"
+1607," const express = require('express'); const app = express(); app.get('/', function(req, res) { res.send('Hello, World!'); } ); app.listen(3000, function() { console.log('App is listening on port 3000'); } );"
+1614," print('Hello, World!')"
+1617, int x = 10;
+1619, int x = 5;
+1625, func square(number: Int) -> Int { return number * number }
+1626, fun isEven(number: Int): Boolean { return number % 2 == 0 }
+1632, git checkout -b feature_branch followed by git commit -m 'your message' and finally git merge feature_branch
+1635,"public class HelloWorld {\n    public static void main(String[] args) {\n    System.out.println(""Hello, World!"");\n    }\n}"
+1638,"#include<iostream>\n\nint main() {\n    std::cout<<""Hello, World!"";\n    return 0;\n}"
+1639," puts ""Hello, World!"""
+1642, package main\n\nimport ""fmt""\n\nfunc factorial(n int) int {\nif n == 0 {\nreturn 1\n}\nreturn n * factorial(n-1)\n}\n\nfunc main() {\nfmt.Println(factorial(5))\n}
+1644,"fn main() {\nprintln!(""Hello, World!"");\n}"
+1645,"function add(a: number, b: number): number {\nreturn a + b;\n}\n\nconsole.log(add(5, 10));"
+1648," print('Hello, World!')"
+1654, SELECT * FROM posts WHERE user_id = 1;
+1662," def add(a, b): """"""Adds two numbers together and returns the result."""""" return a + b"
+1666, function findMax(arr) { return Math.max(...arr); }
+1670," public class HelloWorld { public static void Main(string[] args) { System.Console.WriteLine('Hello, World!'); } }"
+1674," print('Hello, World!')"
+1680, < note> < to>Tove< /to> < from>Jani< /from> < heading>Reminder< /heading> < body>Don't forget me this weekend!< /body> < /note>
+1682," Bash: #input  n\ necho 'Hello, World!'"
+1683," System.out.println(""Hello, world!"");"
+1687," Debug.WriteLine(""This is a debug message"");"
+1691," alert(""Hello, world!"");"
+1695," class TestSum(unittest.TestCase): \ n\ n def test_sum(self): \ n self.assertEqual(sum([1, 2, 3]), 6, ""Should be 6"")"
+1702," var fruits = ['apple', 'banana', 'cherry']; fruits.push('orange');"
+1708, double area = length * width;
+1712," gdb program', 'break main', 'run"
+1714, import java.sql.*; \ n\ npublic class Main { \ n\ n\ tpublic static void main(String[] args) { \ n\ t\ tString url = 'jdbc:mysql://localhost/test'; \ n\ t\ tString user = 'root'; \ n\ t\ tString password = ''; \ n\ t} \ n}
+1720,"import 'net/http' \n\nresp, err := http.Get('http://example.com/') \n\nif err != nil { \n\tlog.Fatal(err) \n}"
+1722,"let url = URL(string: 'https://api.example.com/data')! \n\nlet task = URLSession.shared.dataTask(with: url) {(data, response, error) in \n\tprint(String(data: data!, encoding: .utf8)!) \n} \n\ntask.resume()"
+1725, def factorial(n): \ n\ tif n == 0: \ n\ t\ treturn 1 \ n\ telse: \ n\ t\ treturn n * factorial(n-1)
+1731," fn main() { \ n\ tprintln!(""Hello, World!""); \ n}"
+1735," function greeter(person: string) { \ n\ treturn ""Hello, "" + person; \ n}"
+1741," public class HelloWorld { public void DisplayMessage() { Console.WriteLine('Hello, World!'); } }"
+1743, Session session = sessionFactory.openSession(); Transaction tx = session.beginTransaction(); tx.commit(); session.close();
+1745," function sayHello(name) { alert('Hello,'+ name + '!'); }"
+1749, func reverseString(_ s: String) -> String { return String(s.reversed()) }
+1754," #include< iostream>\ nusing namespace std;\ nint main()\ n{\ ncout<< 'Hello, World!';\ nreturn 0;\ n}"
+1756," numbers = [i * i for i in range(1, 11)]"
+1758," @SpringBootApplication\ npublic class Application {\ npublic static void main(String[] args) {\ nSpringApplication.run(Application.class, args);\ n}\ n}"
+1762, git init
+1764," def greet(name): \ n\ t return 'Hello,'+ name"
+1768, console.log('Debug message');
+1772, for (var i = 0; i < array.length; i++) { \ n\ t console.log(array[i]); \ n } \ n\ n
+1774, def factorial(n): if n == 0: return 1 else: return n * factorial(n-1) print(factorial(5))
+1778," class Program { static void Main() { Console.WriteLine('Hello, World!'); } }"
+1780," puts 'Hello, World!'"
+1782," fun main(args: Array< String>) { println('Hello, World!') }"
+1784," package main import 'fmt' func main() { fmt.Println('Hello, World!') }"
+1786, < note> < to>Tove< /to> < from>Jani< /from> < body>Don't forget me this weekend!< /body> < /note>
+1788," Write-Host 'Hello, World!'"
+1789," print('Hello, World!')"
+1790," @Test public void testAdd() { int sum = 5 + 3; assertEquals(8, sum);}"
+1792, console.log('Debugging in progress');
+1796," float area = 3.14 * radius * radius;', 'const float PI = 3.14; float area = PI * radius * radius;"
+1799, pipeline { agent any stages { stage('Build') { steps { echo 'Building..' } } stage('Test') { steps { echo 'Testing..' } } stage('Deploy') { steps { echo 'Deploying....' } } }
+1801, FROM ubuntu:18.04 COPY. /app RUN make /app CMD python /app/app.py
+1803," for (int i = 0; i < n-1; i++) { for (int j = 0; j < n-i-1; j++) { if (arr[j] > arr[j+1]) { swap(&arr[j], &arr[j+1]); } } }"
+1804," def hello_world():\ n\ tprint('Hello, world!')"
+1808, fun sayHello() {\ n\ tprintln('Hello!')\ n}
+1816, func square(number: Int) -> Int {\ n\ treturn number * number\ n}
+1820," def bubbleSort(arr):\ n\ tfor i in range(len(arr)):\ n\ t\ tfor j in range(len(arr)-i-1):\ n\ t\ t\ tif arr[j] > arr[j+1]:\ n\ t\ t\ t\ tarr[j], arr[j+1] = arr[j+1], arr[j]"
+1822, for (let i = 1; i <= 10; i++) {\n\tconsole.log(i);\n}
+1832," try:\ n\ tx = 1 / 0\ nexcept Exception as e:\ n\ tprint('Exception occurred: ', e)"
+1838," [TestMethod] public void TestMethod1() { Assert.AreEqual(4, Add(2, 2)); }"
+1839, // This is a single line comment
+1843," name: CI on: [push] jobs: build: runs-on: ubuntu-latest steps: - uses: actions/checkout@v2 - name: Run a one-line script run: echo Hello, world!"
+1848," def add(a, b) return a + b end"
+1849, public static void main(String[] args)
+1854," for (var i = 0; i < array.length; i++) {} ', 'var length = array.length; for (var i = 0; i < length; i++) {}"
+1858," class Dog: def __init__(self, name, age): self.name = name self.age = age"
+1862, int[] myArray = new int[10];
+1863, console.log('The value of x is'+ x);
+1869," System.out.println', 'Hello, World!'"
+1872," print('Hello, World!')"
+1873," C++: std::cout print('Hello, World!')"
+1874, none
+1875," Go: import functools(fmt), main(), fmt.Println"
+1878, none
+1881, Write-Host
+1882, println!
+1895, import os\ n\ nfor filename in os.listdir('.'):\ n print(filename)
+1900," function sayHello() {\ nconsole.log('Hello, world!');\ n}"
+1905," function greet() { alert('Hello, world!'); }"
+1906, int myNum = 15; cout << myNum;
