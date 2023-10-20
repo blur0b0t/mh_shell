@@ -1,493 +1,0 @@
-got current job name=fts2
-new job name=fts3
-new job created with id: 29394
-----------checking if gpu available on current job-----------------
-no change     /opt/intel/oneapi/intelpython/latest/condabin/conda
-no change     /opt/intel/oneapi/intelpython/latest/bin/conda
-no change     /opt/intel/oneapi/intelpython/latest/bin/conda-env
-no change     /opt/intel/oneapi/intelpython/latest/bin/activate
-no change     /opt/intel/oneapi/intelpython/latest/bin/deactivate
-no change     /opt/intel/oneapi/intelpython/latest/etc/profile.d/conda.sh
-no change     /opt/intel/oneapi/intelpython/latest/etc/fish/conf.d/conda.fish
-no change     /opt/intel/oneapi/intelpython/latest/shell/condabin/Conda.psm1
-no change     /opt/intel/oneapi/intelpython/latest/shell/condabin/conda-hook.ps1
-no change     /opt/intel/oneapi/intelpython/latest/lib/python3.9/site-packages/xontrib/conda.xsh
-no change     /opt/intel/oneapi/intelpython/latest/etc/profile.d/conda.csh
-no change     /opt/intel/oneapi/intelpython/latest/etc/profile.d/conda.ksh
-no change     /home/u131168/.bashrc
-No action taken.
--------------------------------------------
-users render freetier premium
- 
-:: initializing oneAPI environment ...
-   slurm_script: BASH_VERSION = 5.1.16(1)-release
-   args: Using "$@" for setvars.sh arguments: --force
-:: advisor -- latest
-:: ccl -- latest
-:: compiler -- latest
-:: dal -- latest
-:: debugger -- latest
-:: dev-utilities -- latest
-:: dnnl -- latest
-:: dpcpp-ct -- latest
-:: dpl -- latest
-:: embree -- latest
-:: inspector -- latest
-:: intelpython -- latest
-
-CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
-To initialize your shell, run
-
-    $ conda init <SHELL_NAME>
-
-Currently supported shells are:
-  - bash
-  - fish
-  - tcsh
-  - xonsh
-  - zsh
-  - powershell
-
-See 'conda init --help' for more information and options.
-
-IMPORTANT: You may need to close and restart your shell after running 'conda init'.
-
-
-
-CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
-To initialize your shell, run
-
-    $ conda init <SHELL_NAME>
-
-Currently supported shells are:
-  - bash
-  - fish
-  - tcsh
-  - xonsh
-  - zsh
-  - powershell
-
-See 'conda init --help' for more information and options.
-
-IMPORTANT: You may need to close and restart your shell after running 'conda init'.
-
-
-
-CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
-To initialize your shell, run
-
-    $ conda init <SHELL_NAME>
-
-Currently supported shells are:
-  - bash
-  - fish
-  - tcsh
-  - xonsh
-  - zsh
-  - powershell
-
-See 'conda init --help' for more information and options.
-
-IMPORTANT: You may need to close and restart your shell after running 'conda init'.
-
-
-:: ipp -- latest
-:: ippcp -- latest
-:: ispc -- latest
-:: itac -- latest
-:: mkl -- latest
-:: modelzoo -- latest
-:: modin -- latest
-:: mpi -- latest
-:: neural-compressor -- latest
-:: oidn -- latest
-:: openpgl -- latest
-:: openvkl -- latest
-:: ospray -- latest
-:: ospray_studio -- latest
-:: pytorch -- latest
-:: rkcommon -- latest
-:: rkutil -- latest
-:: tbb -- latest
-:: tensorflow -- latest
-:: vtune -- latest
-:: oneAPI environment initialized ::
- 
-Warning: ONEAPI_DEVICE_SELECTOR environment variable is set to opencl:cpu;opencl:fpga;level_zero:3.
-To see the correct device id, please unset ONEAPI_DEVICE_SELECTOR.
-
-[opencl:cpu:0] Intel(R) OpenCL, Intel(R) Xeon(R) Platinum 8480+ 3.0 [2023.16.7.0.21_160000]
-[opencl:acc:1] Intel(R) FPGA Emulation Platform for OpenCL(TM), Intel(R) FPGA Emulation Device 1.2 [2023.16.7.0.21_160000]
-[opencl:cpu:2] Intel(R) OpenCL, Intel(R) Xeon(R) Platinum 8480+ 3.0 [2023.16.7.0.21_160000]
-[ext_oneapi_level_zero:gpu:0] Intel(R) Level-Zero, Intel(R) Data Center GPU Max 1100 1.3 [1.3.26516]
-Warning: ONEAPI_DEVICE_SELECTOR environment variable is set to opencl:cpu;opencl:fpga;level_zero:3.
-To see the correct device id, please unset ONEAPI_DEVICE_SELECTOR.
-
-num_gpu=1\n
-Warning: ONEAPI_DEVICE_SELECTOR environment variable is set to opencl:cpu;opencl:fpga;level_zero:3.
-To see the correct device id, please unset ONEAPI_DEVICE_SELECTOR.
-
-num_cpu=2\n
-/var/spool/slurmd/job29314/slurm_script: line 36: [: missing `]'
--------------------------------------------
-starting fine tuning model
-Defaulting to user installation because normal site-packages is not writeable
-Requirement already satisfied: datasets in /home/u131168/.local/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (2.14.5)
-Requirement already satisfied: torch in /home/u131168/.local/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (2.1.0)
-Requirement already satisfied: transformers>=4.32.0 in /home/u131168/.local/lib/python3.9/site-packages (from -r requirements.txt (line 3)) (4.35.0.dev0)
-Requirement already satisfied: sentencepiece in /home/u131168/.local/lib/python3.9/site-packages (from -r requirements.txt (line 4)) (0.1.99)
-Requirement already satisfied: peft in /home/u131168/.local/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (0.5.0)
-Requirement already satisfied: evaluate in /home/u131168/.local/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (0.4.0)
-Requirement already satisfied: nltk in /home/u131168/.local/lib/python3.9/site-packages (from -r requirements.txt (line 7)) (3.8.1)
-Requirement already satisfied: rouge_score in /home/u131168/.local/lib/python3.9/site-packages (from -r requirements.txt (line 8)) (0.1.2)
-Requirement already satisfied: einops in /home/u131168/.local/lib/python3.9/site-packages (from -r requirements.txt (line 9)) (0.7.0)
-Requirement already satisfied: numpy>=1.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (1.24.3)
-Requirement already satisfied: pyarrow>=8.0.0 in /home/u131168/.local/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (13.0.0)
-Requirement already satisfied: dill<0.3.8,>=0.3.0 in /home/u131168/.local/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (0.3.7)
-Requirement already satisfied: pandas in /home/u131168/.local/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (2.1.1)
-Requirement already satisfied: requests>=2.19.0 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (2.31.0)
-Requirement already satisfied: tqdm>=4.62.1 in /home/u131168/.local/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (4.66.1)
-Requirement already satisfied: xxhash in /home/u131168/.local/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (3.4.1)
-Requirement already satisfied: multiprocess in /home/u131168/.local/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (0.70.15)
-Requirement already satisfied: fsspec[http]<2023.9.0,>=2023.1.0 in /home/u131168/.local/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (2023.6.0)
-Requirement already satisfied: aiohttp in /home/u131168/.local/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (3.8.6)
-Requirement already satisfied: huggingface-hub<1.0.0,>=0.14.0 in /home/u131168/.local/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (0.17.3)
-Requirement already satisfied: packaging in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (23.1)
-Requirement already satisfied: pyyaml>=5.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 1)) (6.0)
-Requirement already satisfied: filelock in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (3.12.4)
-Requirement already satisfied: typing-extensions in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (4.6.3)
-Requirement already satisfied: sympy in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (1.12)
-Requirement already satisfied: networkx in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (3.1)
-Requirement already satisfied: jinja2 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (3.1.2)
-Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (12.1.105)
-Requirement already satisfied: nvidia-cuda-runtime-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (12.1.105)
-Requirement already satisfied: nvidia-cuda-cupti-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (12.1.105)
-Requirement already satisfied: nvidia-cudnn-cu12==8.9.2.26 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (8.9.2.26)
-Requirement already satisfied: nvidia-cublas-cu12==12.1.3.1 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (12.1.3.1)
-Requirement already satisfied: nvidia-cufft-cu12==11.0.2.54 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (11.0.2.54)
-Requirement already satisfied: nvidia-curand-cu12==10.3.2.106 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (10.3.2.106)
-Requirement already satisfied: nvidia-cusolver-cu12==11.4.5.107 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (11.4.5.107)
-Requirement already satisfied: nvidia-cusparse-cu12==12.1.0.106 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (12.1.0.106)
-Requirement already satisfied: nvidia-nccl-cu12==2.18.1 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (2.18.1)
-Requirement already satisfied: nvidia-nvtx-cu12==12.1.105 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (12.1.105)
-Requirement already satisfied: triton==2.1.0 in /home/u131168/.local/lib/python3.9/site-packages (from torch->-r requirements.txt (line 2)) (2.1.0)
-Requirement already satisfied: nvidia-nvjitlink-cu12 in /home/u131168/.local/lib/python3.9/site-packages (from nvidia-cusolver-cu12==11.4.5.107->torch->-r requirements.txt (line 2)) (12.2.140)
-Requirement already satisfied: regex!=2019.12.17 in /home/u131168/.local/lib/python3.9/site-packages (from transformers>=4.32.0->-r requirements.txt (line 3)) (2023.10.3)
-Requirement already satisfied: tokenizers<0.15,>=0.14 in /home/u131168/.local/lib/python3.9/site-packages (from transformers>=4.32.0->-r requirements.txt (line 3)) (0.14.1)
-Requirement already satisfied: safetensors>=0.3.1 in /home/u131168/.local/lib/python3.9/site-packages (from transformers>=4.32.0->-r requirements.txt (line 3)) (0.4.0)
-Requirement already satisfied: psutil in /home/u131168/.local/lib/python3.9/site-packages (from peft->-r requirements.txt (line 5)) (5.9.5)
-Requirement already satisfied: accelerate in /home/u131168/.local/lib/python3.9/site-packages (from peft->-r requirements.txt (line 5)) (0.23.0)
-Requirement already satisfied: responses<0.19 in /home/u131168/.local/lib/python3.9/site-packages (from evaluate->-r requirements.txt (line 6)) (0.18.0)
-Requirement already satisfied: click in /home/u131168/.local/lib/python3.9/site-packages (from nltk->-r requirements.txt (line 7)) (8.1.7)
-Requirement already satisfied: joblib in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from nltk->-r requirements.txt (line 7)) (1.2.0)
-Requirement already satisfied: absl-py in /home/u131168/.local/lib/python3.9/site-packages (from rouge_score->-r requirements.txt (line 8)) (2.0.0)
-Requirement already satisfied: six>=1.14.0 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from rouge_score->-r requirements.txt (line 8)) (1.16.0)
-Requirement already satisfied: attrs>=17.3.0 in /home/u131168/.local/lib/python3.9/site-packages (from aiohttp->datasets->-r requirements.txt (line 1)) (23.1.0)
-Requirement already satisfied: charset-normalizer<4.0,>=2.0 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from aiohttp->datasets->-r requirements.txt (line 1)) (3.1.0)
-Requirement already satisfied: multidict<7.0,>=4.5 in /home/u131168/.local/lib/python3.9/site-packages (from aiohttp->datasets->-r requirements.txt (line 1)) (6.0.4)
-Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in /home/u131168/.local/lib/python3.9/site-packages (from aiohttp->datasets->-r requirements.txt (line 1)) (4.0.3)
-Requirement already satisfied: yarl<2.0,>=1.0 in /home/u131168/.local/lib/python3.9/site-packages (from aiohttp->datasets->-r requirements.txt (line 1)) (1.9.2)
-Requirement already satisfied: frozenlist>=1.1.1 in /home/u131168/.local/lib/python3.9/site-packages (from aiohttp->datasets->-r requirements.txt (line 1)) (1.4.0)
-Requirement already satisfied: aiosignal>=1.1.2 in /home/u131168/.local/lib/python3.9/site-packages (from aiohttp->datasets->-r requirements.txt (line 1)) (1.3.1)
-Requirement already satisfied: idna<4,>=2.5 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests>=2.19.0->datasets->-r requirements.txt (line 1)) (3.4)
-Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests>=2.19.0->datasets->-r requirements.txt (line 1)) (2.0.3)
-Requirement already satisfied: certifi>=2017.4.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests>=2.19.0->datasets->-r requirements.txt (line 1)) (2023.7.22)
-Requirement already satisfied: MarkupSafe>=2.0 in /home/u131168/.local/lib/python3.9/site-packages (from jinja2->torch->-r requirements.txt (line 2)) (2.1.3)
-Requirement already satisfied: python-dateutil>=2.8.2 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from pandas->datasets->-r requirements.txt (line 1)) (2.8.2)
-Requirement already satisfied: pytz>=2020.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from pandas->datasets->-r requirements.txt (line 1)) (2023.3)
-Requirement already satisfied: tzdata>=2022.1 in /home/u131168/.local/lib/python3.9/site-packages (from pandas->datasets->-r requirements.txt (line 1)) (2023.3)
-Requirement already satisfied: mpmath>=0.19 in /home/u131168/.local/lib/python3.9/site-packages (from sympy->torch->-r requirements.txt (line 2)) (1.3.0)
-Defaulting to user installation because normal site-packages is not writeable
-Collecting git+https://github.com/huggingface/transformers
-  Cloning https://github.com/huggingface/transformers to /tmp/pip-req-build-jgvdlb2a
-  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-req-build-jgvdlb2a
-  Resolved https://github.com/huggingface/transformers to commit 1e3c9ddacc7fc4142253bc9ddcba85c4d5b977e7
-  Installing build dependencies: started
-  Installing build dependencies: finished with status 'done'
-  Getting requirements to build wheel: started
-  Getting requirements to build wheel: finished with status 'done'
-  Preparing metadata (pyproject.toml): started
-  Preparing metadata (pyproject.toml): finished with status 'done'
-Requirement already satisfied: filelock in /home/u131168/.local/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (3.12.4)
-Requirement already satisfied: huggingface-hub<1.0,>=0.16.4 in /home/u131168/.local/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (0.17.3)
-Requirement already satisfied: numpy>=1.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (1.24.3)
-Requirement already satisfied: packaging>=20.0 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (23.1)
-Requirement already satisfied: pyyaml>=5.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (6.0)
-Requirement already satisfied: regex!=2019.12.17 in /home/u131168/.local/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (2023.10.3)
-Requirement already satisfied: requests in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (2.31.0)
-Requirement already satisfied: tokenizers<0.15,>=0.14 in /home/u131168/.local/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (0.14.1)
-Requirement already satisfied: safetensors>=0.3.1 in /home/u131168/.local/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (0.4.0)
-Requirement already satisfied: tqdm>=4.27 in /home/u131168/.local/lib/python3.9/site-packages (from transformers==4.35.0.dev0) (4.66.1)
-Requirement already satisfied: fsspec in /home/u131168/.local/lib/python3.9/site-packages (from huggingface-hub<1.0,>=0.16.4->transformers==4.35.0.dev0) (2023.6.0)
-Requirement already satisfied: typing-extensions>=3.7.4.3 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface-hub<1.0,>=0.16.4->transformers==4.35.0.dev0) (4.6.3)
-Requirement already satisfied: charset-normalizer<4,>=2 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers==4.35.0.dev0) (3.1.0)
-Requirement already satisfied: idna<4,>=2.5 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers==4.35.0.dev0) (3.4)
-Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers==4.35.0.dev0) (2.0.3)
-Requirement already satisfied: certifi>=2017.4.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->transformers==4.35.0.dev0) (2023.7.22)
-Defaulting to user installation because normal site-packages is not writeable
-Requirement already satisfied: tokenizers in /home/u131168/.local/lib/python3.9/site-packages (0.14.1)
-Requirement already satisfied: huggingface_hub<0.18,>=0.16.4 in /home/u131168/.local/lib/python3.9/site-packages (from tokenizers) (0.17.3)
-Requirement already satisfied: filelock in /home/u131168/.local/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (3.12.4)
-Requirement already satisfied: fsspec in /home/u131168/.local/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (2023.6.0)
-Requirement already satisfied: requests in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (2.31.0)
-Requirement already satisfied: tqdm>=4.42.1 in /home/u131168/.local/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (4.66.1)
-Requirement already satisfied: pyyaml>=5.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (6.0)
-Requirement already satisfied: typing-extensions>=3.7.4.3 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (4.6.3)
-Requirement already satisfied: packaging>=20.9 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from huggingface_hub<0.18,>=0.16.4->tokenizers) (23.1)
-Requirement already satisfied: charset-normalizer<4,>=2 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->huggingface_hub<0.18,>=0.16.4->tokenizers) (3.1.0)
-Requirement already satisfied: idna<4,>=2.5 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->huggingface_hub<0.18,>=0.16.4->tokenizers) (3.4)
-Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->huggingface_hub<0.18,>=0.16.4->tokenizers) (2.0.3)
-Requirement already satisfied: certifi>=2017.4.17 in /opt/intel/oneapi/intelpython/python3.9/lib/python3.9/site-packages (from requests->huggingface_hub<0.18,>=0.16.4->tokenizers) (2023.7.22)
-/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/checkpoint-30900
-Intel(R) Extension for Scikit-learn* enabled (https://github.com/intel/scikit-learn-intelex)
--------------------starting-script
--------------------setting up-logging
-10/11/2023 03:08:38 - WARNING - __main__ - Process rank: 0, device: cpu, n_gpu: 0distributed training: True, 16-bits training: False
-10/11/2023 03:08:38 - INFO - __main__ - Training/evaluation parameters Seq2SeqTrainingArguments(
-_n_gpu=0,
-adafactor=False,
-adam_beta1=0.9,
-adam_beta2=0.999,
-adam_epsilon=1e-08,
-auto_find_batch_size=False,
-bf16=True,
-bf16_full_eval=False,
-data_seed=None,
-dataloader_drop_last=False,
-dataloader_num_workers=0,
-dataloader_pin_memory=True,
-ddp_backend=None,
-ddp_broadcast_buffers=None,
-ddp_bucket_cap_mb=None,
-ddp_find_unused_parameters=None,
-ddp_timeout=1800,
-debug=[],
-deepspeed=None,
-disable_tqdm=False,
-dispatch_batches=None,
-do_eval=False,
-do_predict=False,
-do_train=True,
-eval_accumulation_steps=None,
-eval_delay=0,
-eval_steps=None,
-evaluation_strategy=no,
-fp16=False,
-fp16_backend=auto,
-fp16_full_eval=False,
-fp16_opt_level=O1,
-fsdp=[],
-fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_grad_ckpt': False},
-fsdp_min_num_params=0,
-fsdp_transformer_layer_cls_to_wrap=None,
-full_determinism=False,
-generation_config=None,
-generation_max_length=None,
-generation_num_beams=None,
-gradient_accumulation_steps=1,
-gradient_checkpointing=False,
-greater_is_better=None,
-group_by_length=False,
-half_precision_backend=auto,
-hub_always_push=False,
-hub_model_id=None,
-hub_private_repo=False,
-hub_strategy=every_save,
-hub_token=<HUB_TOKEN>,
-ignore_data_skip=False,
-include_inputs_for_metrics=False,
-include_tokens_per_second=False,
-jit_mode_eval=False,
-label_names=None,
-label_smoothing_factor=0.0,
-learning_rate=1e-05,
-length_column_name=length,
-load_best_model_at_end=False,
-local_rank=0,
-log_level=passive,
-log_level_replica=warning,
-log_on_each_node=True,
-logging_dir=/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/runs/Oct11_03-08-38_idc-beta-batch-pvc-node-04,
-logging_first_step=False,
-logging_nan_inf_filter=True,
-logging_steps=10,
-logging_strategy=steps,
-lr_scheduler_type=linear,
-max_grad_norm=1.0,
-max_steps=-1,
-metric_for_best_model=None,
-mp_parameters=,
-no_cuda=False,
-num_train_epochs=1.0,
-optim=adamw_torch,
-optim_args=None,
-output_dir=/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/,
-overwrite_output_dir=True,
-past_index=-1,
-per_device_eval_batch_size=2,
-per_device_train_batch_size=2,
-predict_with_generate=False,
-prediction_loss_only=False,
-push_to_hub=False,
-push_to_hub_model_id=None,
-push_to_hub_organization=None,
-push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
-ray_scope=last,
-remove_unused_columns=True,
-report_to=[],
-resume_from_checkpoint=/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/checkpoint-30900,
-run_name=/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/,
-save_on_each_node=False,
-save_safetensors=False,
-save_steps=100,
-save_strategy=steps,
-save_total_limit=2,
-seed=42,
-skip_memory_metrics=True,
-sortish_sampler=False,
-tf32=None,
-torch_compile=False,
-torch_compile_backend=None,
-torch_compile_mode=None,
-torchdynamo=None,
-tpu_metrics_debug=False,
-tpu_num_cores=None,
-use_cpu=False,
-use_ipex=False,
-use_legacy_prediction_loop=False,
-use_mps_device=False,
-warmup_ratio=0.03,
-warmup_steps=0,
-weight_decay=0.0,
-)
-/home/u131168/.local/lib/python3.9/site-packages/datasets/load.py:2089: FutureWarning: 'use_auth_token' was deprecated in favor of 'token' in version 2.14.0 and will be removed in 3.0.0.
-You can remove this warning by passing 'token=None' instead.
-  warnings.warn(
-Using custom data configuration default-44e69619db051a73
-----------------------detecting checkpoint
-10/11/2023 03:08:39 - INFO - datasets.builder - Using custom data configuration default-44e69619db051a73
-Loading Dataset Infos from /home/u131168/.local/lib/python3.9/site-packages/datasets/packaged_modules/csv
-10/11/2023 03:08:39 - INFO - datasets.info - Loading Dataset Infos from /home/u131168/.local/lib/python3.9/site-packages/datasets/packaged_modules/csv
-Overwrite dataset info from restored data version if exists.
-10/11/2023 03:08:39 - INFO - datasets.builder - Overwrite dataset info from restored data version if exists.
-Loading Dataset info from /home/u131168/.cache/huggingface/datasets/csv/default-44e69619db051a73/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d
-10/11/2023 03:08:39 - INFO - datasets.info - Loading Dataset info from /home/u131168/.cache/huggingface/datasets/csv/default-44e69619db051a73/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d
-Found cached dataset csv (/home/u131168/.cache/huggingface/datasets/csv/default-44e69619db051a73/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d)
-10/11/2023 03:08:39 - INFO - datasets.builder - Found cached dataset csv (/home/u131168/.cache/huggingface/datasets/csv/default-44e69619db051a73/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d)
-Loading Dataset info from /home/u131168/.cache/huggingface/datasets/csv/default-44e69619db051a73/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d
-10/11/2023 03:08:39 - INFO - datasets.info - Loading Dataset info from /home/u131168/.cache/huggingface/datasets/csv/default-44e69619db051a73/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d
-[INFO|tokenization_utils_base.py:2053] 2023-10-11 03:08:39,759 >> loading file spiece.model from cache at /home/u131168/.cache/huggingface/hub/models--google--flan-t5-xl/snapshots/8772db7a7a11f7b08e6be7d7088f7a7fd4813bc5/spiece.model
-[INFO|tokenization_utils_base.py:2053] 2023-10-11 03:08:39,759 >> loading file tokenizer.json from cache at /home/u131168/.cache/huggingface/hub/models--google--flan-t5-xl/snapshots/8772db7a7a11f7b08e6be7d7088f7a7fd4813bc5/tokenizer.json
-[INFO|tokenization_utils_base.py:2053] 2023-10-11 03:08:39,759 >> loading file added_tokens.json from cache at None
-[INFO|tokenization_utils_base.py:2053] 2023-10-11 03:08:39,759 >> loading file special_tokens_map.json from cache at /home/u131168/.cache/huggingface/hub/models--google--flan-t5-xl/snapshots/8772db7a7a11f7b08e6be7d7088f7a7fd4813bc5/special_tokens_map.json
-[INFO|tokenization_utils_base.py:2053] 2023-10-11 03:08:39,759 >> loading file tokenizer_config.json from cache at /home/u131168/.cache/huggingface/hub/models--google--flan-t5-xl/snapshots/8772db7a7a11f7b08e6be7d7088f7a7fd4813bc5/tokenizer_config.json
-Loading cached processed dataset at /home/u131168/.cache/huggingface/datasets/csv/default-44e69619db051a73/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-987c11fe689109bd.arrow
-------------------modifying t5 tokenizer-----------------
-10/11/2023 03:08:40 - INFO - datasets.arrow_dataset - Loading cached processed dataset at /home/u131168/.cache/huggingface/datasets/csv/default-44e69619db051a73/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-987c11fe689109bd.arrow
-[INFO|configuration_utils.py:716] 2023-10-11 03:08:40,943 >> loading configuration file config.json from cache at /home/u131168/.cache/huggingface/hub/models--google--flan-t5-xl/snapshots/8772db7a7a11f7b08e6be7d7088f7a7fd4813bc5/config.json
-[INFO|configuration_utils.py:776] 2023-10-11 03:08:40,952 >> Model config T5Config {
-  "_name_or_path": "google/flan-t5-xl",
-  "architectures": [
-    "T5ForConditionalGeneration"
-  ],
-  "classifier_dropout": 0.0,
-  "d_ff": 5120,
-  "d_kv": 64,
-  "d_model": 2048,
-  "decoder_start_token_id": 0,
-  "dense_act_fn": "gelu_new",
-  "dropout_rate": 0.1,
-  "eos_token_id": 1,
-  "feed_forward_proj": "gated-gelu",
-  "initializer_factor": 1.0,
-  "is_encoder_decoder": true,
-  "is_gated_act": true,
-  "layer_norm_epsilon": 1e-06,
-  "model_type": "t5",
-  "n_positions": 512,
-  "num_decoder_layers": 24,
-  "num_heads": 32,
-  "num_layers": 24,
-  "output_past": true,
-  "pad_token_id": 0,
-  "relative_attention_max_distance": 128,
-  "relative_attention_num_buckets": 32,
-  "task_specific_params": {
-    "summarization": {
-      "early_stopping": true,
-      "length_penalty": 2.0,
-      "max_length": 200,
-      "min_length": 30,
-      "no_repeat_ngram_size": 3,
-      "num_beams": 4,
-      "prefix": "summarize: "
-    },
-    "translation_en_to_de": {
-      "early_stopping": true,
-      "max_length": 300,
-      "num_beams": 4,
-      "prefix": "translate English to German: "
-    },
-    "translation_en_to_fr": {
-      "early_stopping": true,
-      "max_length": 300,
-      "num_beams": 4,
-      "prefix": "translate English to French: "
-    },
-    "translation_en_to_ro": {
-      "early_stopping": true,
-      "max_length": 300,
-      "num_beams": 4,
-      "prefix": "translate English to Romanian: "
-    }
-  },
-  "tie_word_embeddings": false,
-  "torch_dtype": "float32",
-  "transformers_version": "4.35.0.dev0",
-  "use_cache": true,
-  "vocab_size": 32128
-}
-
-[INFO|modeling_utils.py:2995] 2023-10-11 03:08:40,985 >> loading weights file pytorch_model.bin from cache at /home/u131168/.cache/huggingface/hub/models--google--flan-t5-xl/snapshots/8772db7a7a11f7b08e6be7d7088f7a7fd4813bc5/pytorch_model.bin.index.json
-[INFO|configuration_utils.py:771] 2023-10-11 03:08:40,994 >> Generate config GenerationConfig {
-  "decoder_start_token_id": 0,
-  "eos_token_id": 1,
-  "pad_token_id": 0
-}
-
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.88s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  6.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  7.19s/it]
-[INFO|modeling_utils.py:3779] 2023-10-11 03:09:28,394 >> All model checkpoint weights were used when initializing T5ForConditionalGeneration.
-
-[INFO|modeling_utils.py:3787] 2023-10-11 03:09:28,394 >> All the weights of T5ForConditionalGeneration were initialized from the model checkpoint at google/flan-t5-xl.
-If your task is similar to the task the model of the checkpoint was trained on, you can already use T5ForConditionalGeneration for predictions without further training.
-[INFO|configuration_utils.py:731] 2023-10-11 03:09:28,601 >> loading configuration file generation_config.json from cache at /home/u131168/.cache/huggingface/hub/models--google--flan-t5-xl/snapshots/8772db7a7a11f7b08e6be7d7088f7a7fd4813bc5/generation_config.json
-[INFO|configuration_utils.py:771] 2023-10-11 03:09:28,602 >> Generate config GenerationConfig {
-  "decoder_start_token_id": 0,
-  "eos_token_id": 1,
-  "pad_token_id": 0
-}
-
-[INFO|modeling_utils.py:1619] 2023-10-11 03:09:28,615 >> You are resizing the embedding layer without providing a `pad_to_multiple_of` parameter. This means that the new embedding dimension will be 32105. This might induce some performance reduction as *Tensor Cores* will not be available. For more details about this, or help on choosing the correct value for resizing, refer to this guide: https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html#requirements-tc
-[INFO|modeling_utils.py:1619] 2023-10-11 03:09:42,953 >> You are resizing the embedding layer without providing a `pad_to_multiple_of` parameter. This means that the new embedding dimension will be 32105. This might induce some performance reduction as *Tensor Cores* will not be available. For more details about this, or help on choosing the correct value for resizing, refer to this guide: https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html#requirements-tc
-[INFO|trainer.py:584] 2023-10-11 03:09:43,033 >> Using cpu_amp half precision backend
-[INFO|trainer.py:2008] 2023-10-11 03:09:43,043 >> Loading model from /home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/checkpoint-30900.
-[INFO|trainer.py:1669] 2023-10-11 03:09:43,601 >> ***** Running training *****
-[INFO|trainer.py:1670] 2023-10-11 03:09:43,601 >>   Num examples = 139,077
-[INFO|trainer.py:1671] 2023-10-11 03:09:43,601 >>   Num Epochs = 1
-[INFO|trainer.py:1672] 2023-10-11 03:09:43,601 >>   Instantaneous batch size per device = 2
-[INFO|trainer.py:1675] 2023-10-11 03:09:43,601 >>   Total train batch size (w. parallel, distributed & accumulation) = 2
-[INFO|trainer.py:1676] 2023-10-11 03:09:43,601 >>   Gradient Accumulation steps = 1
-[INFO|trainer.py:1677] 2023-10-11 03:09:43,601 >>   Total optimization steps = 69,539
-[INFO|trainer.py:1678] 2023-10-11 03:09:43,608 >>   Number of trainable parameters = 4,718,592
-[INFO|trainer.py:1698] 2023-10-11 03:09:43,620 >>   Continuing training from checkpoint, will skip to saved global_step
-[INFO|trainer.py:1699] 2023-10-11 03:09:43,620 >>   Continuing training from epoch 0
-[INFO|trainer.py:1700] 2023-10-11 03:09:43,620 >>   Continuing training from global step 30900
-[INFO|trainer.py:1702] 2023-10-11 03:09:43,620 >>   Will skip the first 0 epochs then the first 30900 batches in the first epoch.
-trainable params: 4,718,592 || all params: 2,854,381,568 || trainable%: 0.1653104845161332
--------------------traing-model
-  0%|          | 0/69539 [00:00<?, ?it/s][WARNING|logging.py:290] 2023-10-11 03:09:43,987 >> You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
- 44%|████▍     | 30901/69539 [00:12<00:15, 2544.24it/s] 44%|████▍     | 30902/69539 [00:27<00:15, 2544.24it/s] 44%|████▍     | 30903/69539 [00:33<00:53, 722.12it/s]  44%|████▍     | 30904/69539 [00:45<01:25, 454.52it/s] 44%|████▍     | 30905/69539 [01:03<02:27, 261.84it/s] 44%|████▍     | 30906/69539 [01:18<03:50, 167.94it/s] 44%|████▍     | 30907/69539 [01:33<05:39, 113.87it/s] 44%|████▍     | 30908/69539 [01:47<08:03, 79.91it/s]  44%|████▍     | 30909/69539 [02:00<11:23, 56.49it/s] 44%|████▍     | 30910/69539 [02:18<17:46, 36.21it/s]                                                      44%|████▍     | 30910/69539 [02:18<17:46, 36.21it/s] 44%|████▍     | 30911/69539 [02:29<23:45, 27.10it/s] 44%|████▍     | 30912/69539 [02:39<30:30, 21.11it/s] 44%|████▍     | 30913/69539 [02:48<40:08, 16.04it/s] 44%|████▍     | 30914/69539 [02:56<51:33, 12.48it/s] 44%|████▍     | 30915/69539 [03:06<1:13:51,  8.72it/s] 44%|████▍     | 30916/69539 [03:27<2:15:55,  4.74it/s] 44%|████▍     | 30917/69539 [03:37<2:57:00,  3.64it/s] 44%|████▍     | 30918/69539 [03:43<3:35:16,  2.99it/s] 44%|████▍     | 30919/69539 [03:51<4:44:22,  2.26it/s] 44%|████▍     | 30920/69539 [04:01<6:32:29,  1.64it/s]                                                        44%|████▍     | 30920/69539 [04:01<6:32:29,  1.64it/s] 44%|████▍     | 30921/69539 [04:16<10:32:50,  1.02it/s] 44%|████▍     | 30922/69539 [04:25<13:44:16,  1.28s/it] 44%|████▍     | 30923/69539 [04:35<17:54:39,  1.67s/it] 44%|████▍     | 30924/69539 [04:43<22:40:57,  2.11s/it] 44%|████▍     | 30925/69539 [04:55<31:26:48,  2.93s/it] 44%|████▍     | 30926/69539 [05:05<39:52:04,  3.72s/it] 44%|████▍     | 30927/69539 [05:35<77:51:34,  7.26s/it] 44%|████▍     | 30928/69539 [05:42<76:21:39,  7.12s/it] 44%|████▍     | 30929/69539 [05:54<86:36:16,  8.08s/it] 44%|████▍     | 30930/69539 [06:13<110:25:53, 10.30s/it]                                                          44%|████▍     | 30930/69539 [06:13<110:25:53, 10.30s/it] 44%|████▍     | 30931/69539 [06:24<113:45:22, 10.61s/it] 44%|████▍     | 30932/69539 [06:35<115:07:41, 10.74s/it] 44%|████▍     | 30933/69539 [06:43<106:30:24,  9.93s/it] 44%|████▍     | 30934/69539 [06:56<116:49:50, 10.89s/it] 44%|████▍     | 30935/69539 [07:08<117:37:28, 10.97s/it] 44%|████▍     | 30936/69539 [07:17<111:49:44, 10.43s/it] 44%|████▍     | 30937/69539 [07:29<116:34:08, 10.87s/it] 44%|████▍     | 30938/69539 [07:40<118:14:59, 11.03s/it] 44%|████▍     | 30939/69539 [07:47<103:59:12,  9.70s/it] 44%|████▍     | 30940/69539 [08:15<163:08:46, 15.22s/it]                                                          44%|████▍     | 30940/69539 [08:15<163:08:46, 15.22s/it] 44%|████▍     | 30941/69539 [08:36<183:34:04, 17.12s/it] 44%|████▍     | 30942/69539 [08:52<179:42:42, 16.76s/it] 44%|████▍     | 30943/69539 [09:15<199:54:59, 18.65s/it] 44%|████▍     | 30944/69539 [09:28<179:25:50, 16.74s/it] 45%|████▍     | 30945/69539 [09:39<162:00:57, 15.11s/it] 45%|████▍     | 30946/69539 [09:54<162:35:39, 15.17s/it] 45%|████▍     | 30947/69539 [10:05<147:42:31, 13.78s/it] 45%|████▍     | 30948/69539 [10:15<135:53:32, 12.68s/it] 45%|████▍     | 30949/69539 [10:27<132:29:12, 12.36s/it] 45%|████▍     | 30950/69539 [10:36<123:45:06, 11.54s/it]                                                          45%|████▍     | 30950/69539 [10:36<123:45:06, 11.54s/it] 45%|████▍     | 30951/69539 [10:54<142:50:54, 13.33s/it] 45%|████▍     | 30952/69539 [11:05<137:54:10, 12.87s/it] 45%|████▍     | 30953/69539 [11:14<123:19:48, 11.51s/it] 45%|████▍     | 30954/69539 [11:25<120:41:47, 11.26s/it] 45%|████▍     | 30955/69539 [11:34<116:11:28, 10.84s/it] 45%|████▍     | 30956/69539 [11:46<117:23:57, 10.95s/it] 45%|████▍     | 30957/69539 [12:08<154:20:15, 14.40s/it] 45%|████▍     | 30958/69539 [12:24<159:34:03, 14.89s/it] 45%|████▍     | 30959/69539 [12:36<148:52:28, 13.89s/it] 45%|████▍     | 30960/69539 [12:46<137:06:15, 12.79s/it]                                                          45%|████▍     | 30960/69539 [12:46<137:06:15, 12.79s/it] 45%|████▍     | 30961/69539 [12:53<118:21:50, 11.05s/it] 45%|████▍     | 30962/69539 [13:09<136:27:20, 12.73s/it] 45%|████▍     | 30963/69539 [13:20<128:44:52, 12.02s/it] 45%|████▍     | 30964/69539 [13:33<132:02:16, 12.32s/it] 45%|████▍     | 30965/69539 [13:41<117:43:37, 10.99s/it] 45%|████▍     | 30966/69539 [13:50<110:39:08, 10.33s/it] 45%|████▍     | 30967/69539 [14:00<109:50:38, 10.25s/it] 45%|████▍     | 30968/69539 [14:17<132:46:38, 12.39s/it] 45%|████▍     | 30969/69539 [14:32<141:31:53, 13.21s/it] 45%|████▍     | 30970/69539 [14:47<147:25:12, 13.76s/it]                                                          45%|████▍     | 30970/69539 [14:47<147:25:12, 13.76s/it] 45%|████▍     | 30971/69539 [15:02<151:46:52, 14.17s/it] 45%|████▍     | 30972/69539 [15:21<165:35:51, 15.46s/it] 45%|████▍     | 30973/69539 [15:33<155:44:45, 14.54s/it] 45%|████▍     | 30974/69539 [15:44<144:32:27, 13.49s/it] 45%|████▍     | 30975/69539 [15:54<132:26:21, 12.36s/it] 45%|████▍     | 30976/69539 [16:02<119:45:21, 11.18s/it] 45%|████▍     | 30977/69539 [16:17<129:25:05, 12.08s/it] 45%|████▍     | 30978/69539 [16:34<147:52:41, 13.81s/it] 45%|████▍     | 30979/69539 [16:44<134:39:14, 12.57s/it] 45%|████▍     | 30980/69539 [16:53<122:56:04, 11.48s/it]                                                          45%|████▍     | 30980/69539 [16:53<122:56:04, 11.48s/it] 45%|████▍     | 30981/69539 [17:01<112:58:38, 10.55s/it] 45%|████▍     | 30982/69539 [17:12<113:02:49, 10.56s/it] 45%|████▍     | 30983/69539 [17:29<133:16:58, 12.44s/it] 45%|████▍     | 30984/69539 [17:37<120:04:43, 11.21s/it] 45%|████▍     | 30985/69539 [17:47<117:09:53, 10.94s/it] 45%|████▍     | 30986/69539 [17:57<113:20:43, 10.58s/it] 45%|████▍     | 30987/69539 [18:08<113:27:18, 10.59s/it] 45%|████▍     | 30988/69539 [18:22<123:38:54, 11.55s/it] 45%|████▍     | 30989/69539 [18:35<130:06:05, 12.15s/it] 45%|████▍     | 30990/69539 [18:47<129:16:21, 12.07s/it]                                                          45%|████▍     | 30990/69539 [18:47<129:16:21, 12.07s/it] 45%|████▍     | 30991/69539 [18:59<130:32:55, 12.19s/it] 45%|████▍     | 30992/69539 [19:09<122:44:41, 11.46s/it] 45%|████▍     | 30993/69539 [19:24<132:29:58, 12.37s/it] 45%|████▍     | 30994/69539 [19:40<144:30:13, 13.50s/it] 45%|████▍     | 30995/69539 [19:48<128:12:11, 11.97s/it] 45%|████▍     | 30996/69539 [19:58<119:52:34, 11.20s/it] 45%|████▍     | 30997/69539 [20:06<110:19:28, 10.30s/it] 45%|████▍     | 30998/69539 [20:15<107:09:10, 10.01s/it] 45%|████▍     | 30999/69539 [20:34<135:55:21, 12.70s/it] 45%|████▍     | 31000/69539 [21:03<188:22:12, 17.60s/it]                                                          45%|████▍     | 31000/69539 [21:03<188:22:12, 17.60s/it][INFO|trainer.py:2806] 2023-10-11 03:30:47,353 >> Saving model checkpoint to /home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/checkpoint-31000
-[INFO|trainer.py:2893] 2023-10-11 03:30:47,823 >> Deleting older checkpoint [/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/checkpoint-30800] due to args.save_total_limit
- 45%|████▍     | 31001/69539 [21:26<206:17:10, 19.27s/it] 45%|████▍     | 31002/69539 [21:35<172:04:41, 16.07s/it] 45%|████▍     | 31003/69539 [21:42<142:07:23, 13.28s/it] 45%|████▍     | 31004/69539 [21:52<133:14:50, 12.45s/it] 45%|████▍     | 31005/69539 [22:04<131:11:17, 12.26s/it] 45%|████▍     | 31006/69539 [22:12<118:01:34, 11.03s/it] 45%|████▍     | 31007/69539 [22:18<102:30:49,  9.58s/it] 45%|████▍     | 31008/69539 [22:25<93:39:25,  8.75s/it]  45%|████▍     | 31009/69539 [22:33<90:22:01,  8.44s/it] 45%|████▍     | 31010/69539 [22:44<98:39:49,  9.22s/it]                                                         45%|████▍     | 31010/69539 [22:44<98:39:49,  9.22s/it] 45%|████▍     | 31011/69539 [23:13<163:26:11, 15.27s/it] 45%|████▍     | 31012/69539 [23:23<145:07:27, 13.56s/it] 45%|████▍     | 31013/69539 [23:33<133:35:15, 12.48s/it] 45%|████▍     | 31014/69539 [23:40<115:59:16, 10.84s/it] 45%|████▍     | 31015/69539 [23:49<110:58:31, 10.37s/it] 45%|████▍     | 31016/69539 [24:00<110:53:41, 10.36s/it] 45%|████▍     | 31017/69539 [24:13<121:42:00, 11.37s/it] 45%|████▍     | 31018/69539 [24:26<126:57:37, 11.87s/it] 45%|████▍     | 31019/69539 [24:42<138:06:58, 12.91s/it] 45%|████▍     | 31020/69539 [24:50<123:52:29, 11.58s/it]                                                          45%|████▍     | 31020/69539 [24:50<123:52:29, 11.58s/it] 45%|████▍     | 31021/69539 [24:58<113:27:51, 10.60s/it] 45%|████▍     | 31022/69539 [25:07<106:39:24,  9.97s/it] 45%|████▍     | 31023/69539 [25:16<103:03:57,  9.63s/it] 45%|████▍     | 31024/69539 [25:27<109:08:48, 10.20s/it] 45%|████▍     | 31025/69539 [25:37<107:59:34, 10.09s/it] 45%|████▍     | 31026/69539 [25:51<121:22:59, 11.35s/it] 45%|████▍     | 31027/69539 [26:05<128:00:55, 11.97s/it] 45%|████▍     | 31028/69539 [26:14<118:51:30, 11.11s/it] 45%|████▍     | 31029/69539 [26:22<109:17:46, 10.22s/it] 45%|████▍     | 31030/69539 [26:30<103:28:21,  9.67s/it]                                                          45%|████▍     | 31030/69539 [26:30<103:28:21,  9.67s/it] 45%|████▍     | 31031/69539 [26:39<98:59:26,  9.25s/it]  45%|████▍     | 31032/69539 [26:48<98:00:39,  9.16s/it] 45%|████▍     | 31033/69539 [26:57<98:43:09,  9.23s/it] 45%|████▍     | 31034/69539 [27:04<91:54:04,  8.59s/it] 45%|████▍     | 31035/69539 [27:12<90:34:45,  8.47s/it] 45%|████▍     | 31036/69539 [27:22<94:59:16,  8.88s/it] 45%|████▍     | 31037/69539 [27:38<116:16:20, 10.87s/it] 45%|████▍     | 31038/69539 [27:51<124:49:27, 11.67s/it] 45%|████▍     | 31039/69539 [28:16<165:45:37, 15.50s/it] 45%|████▍     | 31040/69539 [28:37<184:34:58, 17.26s/it]                                                          45%|████▍     | 31040/69539 [28:37<184:34:58, 17.26s/it] 45%|████▍     | 31041/69539 [28:56<188:36:22, 17.64s/it] 45%|████▍     | 31042/69539 [29:07<167:56:35, 15.70s/it] 45%|████▍     | 31043/69539 [29:19<158:09:38, 14.79s/it] 45%|████▍     | 31044/69539 [29:29<140:35:38, 13.15s/it] 45%|████▍     | 31045/69539 [29:39<129:54:41, 12.15s/it] 45%|████▍     | 31046/69539 [29:45<112:10:01, 10.49s/it] 45%|████▍     | 31047/69539 [29:56<113:52:52, 10.65s/it] 45%|████▍     | 31048/69539 [30:06<111:00:46, 10.38s/it] 45%|████▍     | 31049/69539 [30:15<105:53:19,  9.90s/it] 45%|████▍     | 31050/69539 [30:25<108:01:20, 10.10s/it]                                                          45%|████▍     | 31050/69539 [30:25<108:01:20, 10.10s/it] 45%|████▍     | 31051/69539 [30:38<117:34:49, 11.00s/it] 45%|████▍     | 31052/69539 [30:55<135:44:56, 12.70s/it] 45%|████▍     | 31053/69539 [31:07<132:16:10, 12.37s/it] 45%|████▍     | 31054/69539 [31:20<136:42:05, 12.79s/it] 45%|████▍     | 31055/69539 [31:27<118:11:17, 11.06s/it] 45%|████▍     | 31056/69539 [31:40<123:57:47, 11.60s/it] 45%|████▍     | 31057/69539 [31:52<124:55:02, 11.69s/it] 45%|████▍     | 31058/69539 [32:00<113:41:06, 10.64s/it] 45%|████▍     | 31059/69539 [32:07<99:41:09,  9.33s/it]  45%|████▍     | 31060/69539 [32:18<105:18:00,  9.85s/it]                                                          45%|████▍     | 31060/69539 [32:18<105:18:00,  9.85s/it] 45%|████▍     | 31061/69539 [32:44<158:01:39, 14.79s/it] 45%|████▍     | 31062/69539 [32:58<156:21:41, 14.63s/it] 45%|████▍     | 31063/69539 [33:13<157:54:24, 14.77s/it] 45%|████▍     | 31064/69539 [33:29<159:16:18, 14.90s/it] 45%|████▍     | 31065/69539 [33:40<147:57:21, 13.84s/it] 45%|████▍     | 31066/69539 [33:55<152:18:39, 14.25s/it] 45%|████▍     | 31067/69539 [34:13<163:56:06, 15.34s/it] 45%|████▍     | 31068/69539 [34:27<159:11:22, 14.90s/it] 45%|████▍     | 31069/69539 [34:40<154:02:46, 14.42s/it] 45%|████▍     | 31070/69539 [34:52<145:56:37, 13.66s/it]                                                          45%|████▍     | 31070/69539 [34:52<145:56:37, 13.66s/it] 45%|████▍     | 31071/69539 [35:03<135:25:14, 12.67s/it] 45%|████▍     | 31072/69539 [35:16<138:54:06, 13.00s/it] 45%|████▍     | 31073/69539 [35:27<131:43:44, 12.33s/it] 45%|████▍     | 31074/69539 [35:41<136:25:33, 12.77s/it] 45%|████▍     | 31075/69539 [35:58<150:20:41, 14.07s/it] 45%|████▍     | 31076/69539 [36:11<147:52:59, 13.84s/it] 45%|████▍     | 31077/69539 [36:22<137:03:00, 12.83s/it] 45%|████▍     | 31078/69539 [36:34<134:12:56, 12.56s/it] 45%|████▍     | 31079/69539 [36:43<124:25:40, 11.65s/it] 45%|████▍     | 31080/69539 [36:50<109:15:16, 10.23s/it]                                                          45%|████▍     | 31080/69539 [36:50<109:15:16, 10.23s/it] 45%|████▍     | 31081/69539 [37:00<106:41:52,  9.99s/it] 45%|████▍     | 31082/69539 [37:26<158:23:30, 14.83s/it] 45%|████▍     | 31083/69539 [37:37<147:16:46, 13.79s/it] 45%|████▍     | 31084/69539 [37:55<160:24:28, 15.02s/it] 45%|████▍     | 31085/69539 [38:06<148:34:59, 13.91s/it] 45%|████▍     | 31086/69539 [38:16<136:45:48, 12.80s/it] 45%|████▍     | 31087/69539 [38:25<123:13:16, 11.54s/it] 45%|████▍     | 31088/69539 [38:31<106:30:09,  9.97s/it] 45%|████▍     | 31089/69539 [38:44<116:06:55, 10.87s/it] 45%|████▍     | 31090/69539 [38:59<128:55:54, 12.07s/it]                                                          45%|████▍     | 31090/69539 [38:59<128:55:54, 12.07s/it] 45%|████▍     | 31091/69539 [39:13<135:07:52, 12.65s/it] 45%|████▍     | 31092/69539 [39:23<126:24:46, 11.84s/it] 45%|████▍     | 31093/69539 [39:38<136:24:53, 12.77s/it] 45%|████▍     | 31094/69539 [39:54<145:38:45, 13.64s/it] 45%|████▍     | 31095/69539 [40:12<159:23:51, 14.93s/it] 45%|████▍     | 31096/69539 [40:26<156:03:36, 14.61s/it] 45%|████▍     | 31097/69539 [40:39<151:49:31, 14.22s/it] 45%|████▍     | 31098/69539 [40:57<165:15:00, 15.48s/it] 45%|████▍     | 31099/69539 [41:08<150:02:59, 14.05s/it] 45%|████▍     | 31100/69539 [41:21<146:48:04, 13.75s/it]                                                          45%|████▍     | 31100/69539 [41:21<146:48:04, 13.75s/it][INFO|trainer.py:2806] 2023-10-11 03:51:05,187 >> Saving model checkpoint to /home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/checkpoint-31100
-[INFO|trainer.py:2893] 2023-10-11 03:51:05,758 >> Deleting older checkpoint [/home/u131168/mh_shell/ft_models/flan-t5-xl_mt5_v4/checkpoint-30900] due to args.save_total_limit
- 45%|████▍     | 31101/69539 [41:43<173:28:02, 16.25s/it] 45%|████▍     | 31102/69539 [41:51<146:01:54, 13.68s/it] 45%|████▍     | 31103/69539 [41:56<120:16:28, 11.27s/it] 45%|████▍     | 31104/69539 [42:04<109:06:44, 10.22s/it] 45%|████▍     | 31105/69539 [42:13<103:04:28,  9.65s/it] 45%|████▍     | 31106/69539 [42:22<102:57:31,  9.64s/it] 45%|████▍     | 31107/69539 [42:31<99:10:47,  9.29s/it]  45%|████▍     | 31108/69539 [42:43<110:16:07, 10.33s/it] 45%|████▍     | 31109/69539 [42:58<124:58:44, 11.71s/it] 45%|████▍     | 31110/69539 [43:14<137:52:02, 12.92s/it]                                                          45%|████▍     | 31110/69539 [43:14<137:52:02, 12.92s/it] 45%|████▍     | 31111/69539 [43:28<142:07:46, 13.31s/it] 45%|████▍     | 31112/69539 [43:50<167:32:45, 15.70s/it] 45%|████▍     | 31113/69539 [44:02<156:32:14, 14.67s/it] 45%|████▍     | 31114/69539 [44:14<149:37:50, 14.02s/it] 45%|████▍     | 31115/69539 [44:27<146:36:29, 13.74s/it] 45%|████▍     | 31116/69539 [44:44<156:16:23, 14.64s/it] 45%|████▍     | 31117/69539 [44:54<139:31:39, 13.07s/it] 45%|████▍     | 31118/69539 [45:04<131:32:12, 12.32s/it] 45%|████▍     | 31119/69539 [45:19<138:35:50, 12.99s/it] 45%|████▍     | 31120/69539 [45:33<141:26:36, 13.25s/it]                                                          45%|████▍     | 31120/69539 [45:33<141:26:36, 13.25s/it] 45%|████▍     | 31121/69539 [45:47<146:51:14, 13.76s/it] 45%|████▍     | 31122/69539 [46:03<152:56:54, 14.33s/it] 45%|████▍     | 31123/69539 [46:15<145:45:02, 13.66s/it] 45%|████▍     | 31124/69539 [46:27<138:19:44, 12.96s/it] 45%|████▍     | 31125/69539 [46:35<123:20:22, 11.56s/it] 45%|████▍     | 31126/69539 [46:44<115:37:01, 10.84s/it] 45%|████▍     | 31127/69539 [47:00<132:30:19, 12.42s/it] 45%|████▍     | 31128/69539 [47:14<135:53:10, 12.74s/it] 45%|████▍     | 31129/69539 [47:26<135:14:05, 12.67s/it] 45%|████▍     | 31130/69539 [47:39<134:33:08, 12.61s/it]                                                          45%|████▍     | 31130/69539 [47:39<134:33:08, 12.61s/it] 45%|████▍     | 31131/69539 [47:50<130:11:53, 12.20s/it] 45%|████▍     | 31132/69539 [48:02<129:31:38, 12.14s/it] 45%|████▍     | 31133/69539 [48:12<122:09:01, 11.45s/it] 45%|████▍     | 31134/69539 [48:22<119:41:21, 11.22s/it] 45%|████▍     | 31135/69539 [48:36<128:43:11, 12.07s/it] 45%|████▍     | 31136/69539 [48:49<130:13:33, 12.21s/it] 45%|████▍     | 31137/69539 [49:03<137:32:09, 12.89s/it] 45%|████▍     | 31138/69539 [49:15<133:43:46, 12.54s/it] 45%|████▍     | 31139/69539 [49:27<132:59:50, 12.47s/it] 45%|████▍     | 31140/69539 [49:40<134:36:22, 12.62s/it]                                                          45%|████▍     | 31140/69539 [49:40<134:36:22, 12.62s/it] 45%|████▍     | 31141/69539 [49:50<126:12:07, 11.83s/it] 45%|████▍     | 31142/69539 [50:01<123:43:01, 11.60s/it] 45%|████▍     | 31143/69539 [50:18<139:35:49, 13.09s/it] 45%|████▍     | 31144/69539 [50:40<168:31:58, 15.80s/it] 45%|████▍     | 31145/69539 [50:48<144:25:38, 13.54s/it] 45%|████▍     | 31146/69539 [50:58<131:54:51, 12.37s/it] 45%|████▍     | 31147/69539 [51:09<128:05:53, 12.01s/it] 45%|████▍     | 31148/69539 [51:19<119:52:52, 11.24s/it] 45%|████▍     | 31149/69539 [51:30<119:37:12, 11.22s/it] 45%|████▍     | 31150/69539 [51:38<110:28:24, 10.36s/it]                                                          45%|████▍     | 31150/69539 [51:38<110:28:24, 10.36s/it] 45%|████▍     | 31151/69539 [51:48<107:16:28, 10.06s/it] 45%|████▍     | 31152/69539 [51:57<104:06:44,  9.76s/it] 45%|████▍     | 31153/69539 [52:09<111:09:54, 10.43s/it] 45%|████▍     | 31154/69539 [52:17<103:44:04,  9.73s/it] 45%|████▍     | 31155/69539 [52:24<95:14:18,  8.93s/it]  45%|████▍     | 31156/69539 [52:33<97:06:18,  9.11s/it] 45%|████▍     | 31157/69539 [52:42<95:30:46,  8.96s/it] 45%|████▍     | 31158/69539 [52:49<89:34:22,  8.40s/it] 45%|████▍     | 31159/69539 [52:58<90:32:38,  8.49s/it] 45%|████▍     | 31160/69539 [53:08<97:18:03,  9.13s/it]                                                         45%|████▍     | 31160/69539 [53:08<97:18:03,  9.13s/it] 45%|████▍     | 31161/69539 [53:18<100:08:51,  9.39s/it] 45%|████▍     | 31162/69539 [53:25<91:49:41,  8.61s/it]  45%|████▍     | 31163/69539 [53:33<89:53:13,  8.43s/it] 45%|████▍     | 31164/69539 [53:42<90:59:20,  8.54s/it] 45%|████▍     | 31165/69539 [53:59<118:11:13, 11.09s/it] 45%|████▍     | 31166/69539 [54:10<117:02:44, 10.98s/it] 45%|████▍     | 31167/69539 [54:18<107:07:43, 10.05s/it] 45%|████▍     | 31168/69539 [54:26<103:32:36,  9.71s/it] 45%|████▍     | 31169/69539 [54:34<97:07:57,  9.11s/it]  45%|████▍     | 31170/69539 [54:48<111:09:39, 10.43s/it]                                                          45%|████▍     | 31170/69539 [54:48<111:09:39, 10.43s/it] 45%|████▍     | 31171/69539 [54:57<108:56:52, 10.22s/it] 45%|████▍     | 31172/69539 [55:09<113:46:46, 10.68s/it] 45%|████▍     | 31173/69539 [55:18<107:07:02, 10.05s/it]
