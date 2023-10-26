@@ -6,10 +6,8 @@
 
 MachineHack | Shell cybersecurity hackathon 2023 -
 
+<img src="https://github.com/blur0b0t/mh_shell/assets/143605527/57cc0a93-7786-432b-be39-2c40b617b83a" width=30% height=30%>
 
-
-
-![image](https://github.com/blur0b0t/mh_shell/assets/143605527/120dfb9f-454d-49f7-8a42-23812d16fb42)
 
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/blur0b0t/mh_shell)
