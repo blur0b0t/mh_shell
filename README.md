@@ -16,7 +16,7 @@ MachineHack | Shell cybersecurity hackathon 2023 -
 
 # About Hackathon:
 
-Shell, in collaboration with MachineHack & Analytics India Magazine, asks talented minds to tackle the exponential growth of cyber threats and improve the security and resilience of web applications. The aim of the Cyber Threat Detection Hackathon is to build a next-gen model capable of identifying code in a body of text. 
+Shell, in collaboration with MachineHack & Analytics India Magazine, asked participants to tackle the exponential growth of cyber threats and improve the security and resilience of web applications. The aim of the Cyber Threat Detection Hackathon is to build a next-gen model capable of identifying code in a body of text. 
  
 
  
