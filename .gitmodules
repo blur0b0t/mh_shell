@@ -1,0 +1,3 @@
+[submodule "mhs_pred_app"]
+	path = mhs_pred_app
+	url = https://github.com/blur0b0t/mhs_pred_app.git
