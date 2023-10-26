@@ -1,0 +1,4 @@
+flask
+peft
+pandas
+firebase_admin
