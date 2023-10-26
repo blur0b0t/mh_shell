@@ -6,12 +6,17 @@
 
 MachineHack | Shell cybersecurity hackathon 2023 -
 
+<img src="https://github.com/blur0b0t/mh_shell/assets/143605527/57cc0a93-7786-432b-be39-2c40b617b83a" width=30% height=30%>
+
+<br />
+<br />
+
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/blur0b0t/mh_shell)
 [![GitHub star chart](https://img.shields.io/github/stars/blur0b0t/mh_shell?style=social)](https://star-history.com/#blur0b0t/mh_shell)
 
 # About Hackathon:
 
-Shell, in collaboration with MachineHack & Analytics India Magazine, asks talented minds to tackle the exponential growth of cyber threats and improve the security and resilience of web applications. The aim of the Cyber Threat Detection Hackathon is to build a next-gen model capable of identifying code in a body of text. 
+Shell, in collaboration with MachineHack & Analytics India Magazine, asked participants to tackle the exponential growth of cyber threats and improve the security and resilience of web applications. The aim of the Cyber Threat Detection Hackathon is to build a next-gen model capable of identifying code in a body of text. 
  
 
  
@@ -192,7 +197,7 @@ echo "finished precition"
 
 ```
 
-# Run web application to interact with the finteuned flan-t5-xl-peft model to detect code snippets in the give paragraph.
+# Run web application to interact with the finteuned flan-t5-xl-peft model to detect code snippets in the given paragraph.
 
 - Run python app to serve predictions(code snippets) to the frontend.
 - (*the webapp wont work ,if the python app is not running)
@@ -206,7 +211,13 @@ python ./ft5_cf.py
 
 ```
 
-# Run frontend application(webapp) to ask questions from the model.
+![Screenshot (30)](https://github.com/blur0b0t/mh_shell/assets/143605527/7c654b96-0056-476a-8cf2-d3521aee3641)
+
+![Screenshot (31)](https://github.com/blur0b0t/mh_shell/assets/143605527/e1cdf500-7f2e-4cdf-bc26-63114ae26c06)
+
+
+
+# Run frontend application(webapp) to extract code snippets from a give paragraph.
 - (*make sure that the python application is running before using the webapp)
   <br />
 
@@ -217,7 +228,8 @@ python ./ft5_cf.py
 https://huggingface.co/spaces/blur0b0t/mh_shell
 ```
 
-![image](https://github.com/redR0b0t/mh_one_api/assets/143605527/a13a1480-0a50-413b-9329-53f8c51e6701)
+![Screenshot (29)](https://github.com/blur0b0t/mh_shell/assets/143605527/4188f04e-a685-4f6a-b829-db3a499c24d4)
+
 
 
 
@@ -233,7 +245,11 @@ cd mhs_pred_app
 flutter run -d web-server --host=0.0.0.0
 ```
 
-![](./assets/img.png)
+![Screenshot (27)](https://github.com/blur0b0t/mh_shell/assets/143605527/e34c02c7-d2f5-4a02-b6a4-8ff48d999a99)
+
+
+![Screenshot (28)](https://github.com/blur0b0t/mh_shell/assets/143605527/cb6e94f6-0450-4ba3-b0fd-e0c22f4184a6)
+
 
 
 
@@ -245,4 +261,3 @@ flutter run -d web-server --host=0.0.0.0
 - model available on Huggingface Hub (https://huggingface.co/blur0b0t/mh_shell)
 
 
-![image](https://github.com/blur0b0t/mh_shell/assets/143605527/120dfb9f-454d-49f7-8a42-23812d16fb42)
