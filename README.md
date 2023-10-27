@@ -30,7 +30,8 @@ Protecting our software landscapes is not an easy task. Malicious actors are fre
 
 # Detailed Architecture Flow:
 
-<img width="424" alt="image" src="https://github.com/redR0b0t/mh_one_api/assets/143605527/1c8effb2-c0b2-44cb-a638-da3e46814e6d">
+<img width="424" alt="Screenshot 2023-10-25 161033" src="https://github.com/blur0b0t/mh_shell/assets/143605527/cf4981db-715c-4d7b-ab42-56b53594138b">
+
 
 
 
