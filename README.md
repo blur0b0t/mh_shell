@@ -6,13 +6,14 @@
 
 MachineHack | Shell cybersecurity hackathon 2023 -
 
-<img src="https://github.com/blur0b0t/mh_shell/assets/143605527/57cc0a93-7786-432b-be39-2c40b617b83a" width=30% height=30%>
+<img src=https://github.com/blur0b0t/mh_shell/assets/143605527/0c1952ba-6ab7-4cc1-bcfa-81e26b783c9a width=30% height=30%>
+
+
 
 <br />
 <br />
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/blur0b0t/mh_shell)
-[![GitHub star chart](https://img.shields.io/github/stars/blur0b0t/mh_shell?style=social)](https://star-history.com/#blur0b0t/mh_shell)
 
 # About Hackathon:
 
@@ -211,9 +212,11 @@ python ./ft5_cf.py
 
 ```
 
-![Screenshot (30)](https://github.com/blur0b0t/mh_shell/assets/143605527/7c654b96-0056-476a-8cf2-d3521aee3641)
+![Screenshot (30)](https://github.com/blur0b0t/mh_shell/assets/143605527/3a9fe31c-7fd9-42f3-98b1-7c1d271621fc)
 
-![Screenshot (31)](https://github.com/blur0b0t/mh_shell/assets/143605527/e1cdf500-7f2e-4cdf-bc26-63114ae26c06)
+
+![Screenshot (31)](https://github.com/blur0b0t/mh_shell/assets/143605527/55f89773-9587-464f-8cc3-4371eab6eadb)
+
 
 
 
@@ -228,7 +231,7 @@ python ./ft5_cf.py
 https://huggingface.co/spaces/blur0b0t/mh_shell
 ```
 
-![Screenshot (29)](https://github.com/blur0b0t/mh_shell/assets/143605527/4188f04e-a685-4f6a-b829-db3a499c24d4)
+![Screenshot (29)](https://github.com/blur0b0t/mh_shell/assets/143605527/7f75a20e-7205-4bed-b52b-d89f020b8f53)
 
 
 
@@ -245,10 +248,11 @@ cd mhs_pred_app
 flutter run -d web-server --host=0.0.0.0
 ```
 
-![Screenshot (27)](https://github.com/blur0b0t/mh_shell/assets/143605527/e34c02c7-d2f5-4a02-b6a4-8ff48d999a99)
+![Screenshot (27)](https://github.com/blur0b0t/mh_shell/assets/143605527/a21c0a41-401b-4e10-a08b-eddb70460154)
 
 
-![Screenshot (28)](https://github.com/blur0b0t/mh_shell/assets/143605527/cb6e94f6-0450-4ba3-b0fd-e0c22f4184a6)
+![Screenshot (28)](https://github.com/blur0b0t/mh_shell/assets/143605527/48866e12-5f47-4950-ac8d-08bfb0f00a71)
+
 
 
 
