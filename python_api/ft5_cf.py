@@ -9,12 +9,17 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 from tokenizers import AddedToken
+import intel_extension_for_pytorch as ipex
 
 
 
 
+use_intel_optimization=True
 
 
+
+global uname
+uname="uc4ddc6536e59d9d8f8f5069efdb4e25"
 
 def predict(context,question):
     print("-------------generating prediction-----------------")
@@ -34,7 +39,18 @@ def predict(context,question):
     prompts=[[input,instruction]]
     res=[]
     input_ids = tokenizer(prompts, return_tensors="pt" ,padding=True,truncation=True, max_length=512).input_ids
-    outputs = model.generate(input_ids=input_ids, do_sample=True, max_length=150)
+    if use_intel_optimization==True:
+        # input_ids=input_ids.to('xpu')
+        start_time = time.time()
+        outputs = omodel.generate(input_ids=input_ids, do_sample=True, max_length=150)
+        pti=time.time() - start_time
+        print(f"--------------time taken by optimized model={pti} seconds")
+    else:
+        start_time = time.time()
+        outputs = model.generate(input_ids=input_ids, do_sample=True, max_length=150)
+        pt=time.time() - start_time
+        print(f"--------------time taken by normal model={pt} seconds")
+
     res+=tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
     return  { 'output': f'{res[0]}' }
@@ -49,6 +65,7 @@ def init_model():
     import torch
     import subprocess
     global model
+    global omodel
     global tokenizer
     global mh_dir
     
@@ -72,6 +89,12 @@ def init_model():
     model.resize_token_embeddings(len(tokenizer))
 
     print("-------------loaded custom model-----------------")
+    if use_intel_optimization==True:
+        print("--------------optimizing model---------------")
+        # model = model.to('xpu')
+        omodel=ipex.optimize(model)
+        print("--------------optimized model---------------")
+
     print("--------------ready----------------------")
 
 def listen_msgs():
